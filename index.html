@@ -359,6 +359,164 @@
 			font-weight: 5000;
 			letter-spacing: 0.5px;
 		}
+		
+		/* --- STYLE UNTUK ZOOM FOTO --- */
+		/* Wadah Hitam Fullscreen */
+		#imageViewer {
+			display: none; /* Default tersembunyi */
+			position: fixed;
+			z-index: 10000; /* Harus lebih tinggi dari Modal Bootstrap (1055) */
+			padding-top: 50px;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			overflow: auto;
+			background-color: rgba(0,0,0,0.95); /* Latar hitam pekat */
+			cursor: zoom-out; /* Kursos berubah jadi tanda minus */
+		}
+
+		/* Gambar yang diperbesar */
+		.modal-content-zoom {
+			margin: auto;
+			display: block;
+			max-width: 90%;
+			max-height: 90vh; /* Agar tidak melebihi tinggi layar */
+			object-fit: contain;
+			border-radius: 5px;
+			box-shadow: 0 0 20px rgba(255,255,255,0.2);
+			animation-name: zoomEffect;
+			animation-duration: 0.3s;
+
+		}
+
+		/* Tombol Close (X) */
+		.close-zoom {
+			position: absolute;
+			top: 15px;
+			right: 35px;
+			color: #f1f1f1;
+			font-size: 40px;
+			font-weight: bold;
+			transition: 0.3s;
+			cursor: pointer;
+		}
+
+		.close-zoom:hover {
+			color: #bbb;
+		}
+
+		/* Animasi Zoom In */
+		@keyframes zoomEffect {
+			from {transform:scale(0.8); opacity: 0} 
+			to {transform:scale(1); opacity: 1}
+		}
+
+		/* Ubah kursor foto di dalam modal detail jadi pointer (tangan) */
+		#detailFoto {
+			cursor: zoom-in;
+			transition: transform 0.2s;
+		}
+		#detailFoto:hover {
+			opacity: 0.9;
+		}
+		
+		/* --- CSS UNTUK HOVER GAMBAR DI MODAL --- */
+		.image-container-modal {
+			position: relative;
+			display: inline-block; /* Agar container pas dengan ukuran gambar */
+			cursor: zoom-in;
+			border-radius: 5px;
+			overflow: hidden; /* Agar overlay tidak keluar dari sudut yang membulat */
+		}
+
+		.overlay-zoom-text {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.6); /* Latar hitam transparan */
+			color: white;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			opacity: 0; /* Default tidak terlihat */
+			transition: opacity 0.3s ease;
+			font-weight: 500;
+			text-align: center;
+		}
+
+		/* Saat container di-hover, overlay jadi terlihat */
+		.image-container-modal:hover .overlay-zoom-text {
+			opacity: 1;
+		}
+
+
+		/* --- UPDATE & TAMBAHAN CSS ZOOM --- */
+
+		/* Container Zoom Controls */
+		.zoom-controls {
+			position: fixed;
+			bottom: 30px;
+			left: 50%;
+			transform: translateX(-50%);
+			display: flex;
+			align-items: center;
+			gap: 15px;
+			background-color: rgba(255, 255, 255, 0.9);
+			padding: 10px 20px;
+			border-radius: 50px;
+			box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+			z-index: 10002;
+		}
+
+		/* Tombol + dan - */
+		.btn-zoom {
+			background: var(--primary-color);
+			color: white;
+			border: none;
+			width: 35px;
+			height: 35px;
+			border-radius: 50%;
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition: 0.2s;
+		}
+
+		.btn-zoom:hover {
+			background-color: var(--secondary-color);
+			transform: scale(1.1);
+		}
+
+		/* Slider (Range Input) */
+		#zoomSlider {
+			width: 200px;
+			cursor: pointer;
+			accent-color: var(--primary-color); /* Warna slider mengikuti tema */
+		}
+
+		/* Agar gambar bisa dizoom dengan lancar */
+		.modal-content-zoom {
+			/* ... property lama tetap ada ... */
+			transition: transform 0.1s ease-out; /* Animasi halus saat slider digeser */
+			transform-origin: center center;
+			cursor: grab; /* Ubah kursor jadi tangan */
+		}
+
+		/* Responsive di HP: Slider lebih pendek */
+		@media (max-width: 576px) {
+			#zoomSlider {
+				width: 120px;
+			}
+			.zoom-controls {
+				bottom: 80px; /* Naik sedikit agar tidak kena tombol navigasi HP */
+			}
+		}
+		
     </style>
 </head>
 <body>
@@ -519,8 +677,14 @@
 		  </div>
 		  <div class="modal-body">
 			<div class="row">
-			  <div class="col-md-4 text-center">
-				<img id="detailFoto" src="" alt="Foto" class="img-fluid rounded mb-3" style="max-height:800px; object-fit:cover;">
+			  <div class="col-md-4 text-center mb-3">
+				<div class="image-container-modal" id="imageContainerBtn">
+					<img id="detailFoto" src="" alt="Foto" class="img-fluid rounded" style="max-height:800px; object-fit:cover;">
+					<div class="overlay-zoom-text">
+						<i class="fas fa-search-plus fa-2x mb-2"></i><br>
+						Klik untuk memperjelas
+					</div>
+				</div>
 			  </div>
 			  <div class="col-md-8">
 				<ul class="list-group list-group-flush" id="detailList"></ul>
@@ -533,7 +697,20 @@
 		</div>
 	  </div>
 	</div>
+	
+	
+    <!-- FOTO POPUP -->
+	<div id="imageViewer">
+		<span class="close-zoom" onclick="closeZoom()">&times;</span>
+		
+		<img class="modal-content-zoom" id="expandedImg">
 
+		<div class="zoom-controls" onclick="event.stopPropagation()">
+			<button class="btn-zoom" onclick="updateZoom(-0.2)"><i class="fas fa-minus"></i></button>
+			<input type="range" id="zoomSlider" min="1" max="3.5" step="0.1" value="1">
+			<button class="btn-zoom" onclick="updateZoom(0.2)"><i class="fas fa-plus"></i></button>
+		</div>
+	</div>
 
     <!-- Footer -->
     <footer>
@@ -542,12 +719,6 @@
                 <div class="col-lg-4 mb-4">
                     <div class="footer-logo">Mindana</div>
                     <p>Menumbuhkan Iman, Menyambut Pendamping Idaman. Platform pencarian jodoh dengan nilai-nilai islami untuk menemukan pasangan hidup yang tepat dan barokah.</p>
-                    <div class="social-icons mt-3">
-                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
-                    </div>
                 </div>
                 <div class="col-lg-2 col-md-6 mb-4">
                     <div class="footer-links">
@@ -555,8 +726,7 @@
                         <ul>
                             <li><a href="#">Beranda</a></li>
                             <li><a href="#katalog">Katalog</a></li>
-                            <li><a href="#">Cara Bergabung</a></li>
-                            <li><a href="#">Testimoni</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -564,10 +734,7 @@
                     <div class="footer-links">
                         <h5>Bantuan</h5>
                         <ul>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Syarat & Ketentuan</a></li>
-                            <li><a href="#">Kebijakan Privasi</a></li>
-                            <li><a href="#">Hubungi Kami</a></li>
+                            <li><a href="https://wa.me/628995858647" target="_blank">Hubungi Kami</a></li>
                         </ul>
                     </div>
                 </div>
@@ -575,15 +742,15 @@
                     <div class="footer-links">
                         <h5>Kontak</h5>
                         <ul>
-                            <li><i class="fas fa-map-marker-alt me-2"></i> Jl. Kebajikan No. 123, Jakarta</li>
-                            <li><i class="fas fa-phone me-2"></i> (021) 1234-5678</li>
-                            <li><i class="fas fa-envelope me-2"></i> info@temubarokah.com</li>
+                            <li><i class="fas fa-map-marker-alt me-2"></i> Jl. Cendrawasih, Nglobener, Jepon, Kec. Jepon, Kabupaten Blora, Jawa Tengah 58261</li>
+                            <li><i class="fas fa-phone me-2"></i>+62 823-9103-8122</li>
+                            <li><i class="fas fa-envelope me-2"></i> project.jokam@gmail.com</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="copyright">
-                &copy; 2023 TemuBarokah. All rights reserved.
+                &copy; 2025 PnKB Blora. All rights reserved.
             </div>
         </div>
     </footer>
@@ -732,17 +899,35 @@
     // VIEW DETAIL (PERBAIKAN BESAR)
     // ----------------------------------
     function viewDetail(encodedFoto) {
-        // 1. Decode URL
         const realFotoURL = decodeURIComponent(encodedFoto);
-        
-        // 2. Cari data berdasarkan URL Foto (Pastikan key sesuai JSON)
         const person = biodata.find(p => (p["Foto Diri (Tampak Seluruh Tubuh)"] || "") === realFotoURL);
         
+                
         if (!person) {
             console.error("Data tidak ditemukan untuk foto:", realFotoURL);
             return;
         }
-
+		
+		// 1. Set gambar di modal (Kode LAMA)
+        const imgElement = document.getElementById('detailFoto');
+        imgElement.src = convertDriveLink(person["Foto Diri (Tampak Seluruh Tubuh)"]);
+        
+        // --- 2. TAMBAHAN BARU: AKTIFKAN KLIK UNTUK ZOOM ---
+        document.getElementById('imageContainerBtn').onclick = function() {
+            const viewer = document.getElementById("imageViewer");
+            const expandedImg = document.getElementById("expandedImg");
+            
+            // Set sumber gambar besar sama dengan gambar di modal
+            expandedImg.src = imgElement.src;
+            
+            // Tampilkan viewer
+            viewer.style.display = "flex";
+            viewer.style.alignItems = "center";
+            viewer.style.justifyContent = "center";
+			
+			document.getElementById('zoomSlider').value = 1;
+            applyZoom(1);
+        }
        
         // 4. Update Foto Modal
         document.getElementById('detailFoto').src = convertDriveLink(person["Foto Diri (Tampak Seluruh Tubuh)"]);
@@ -928,6 +1113,72 @@
             itemsPerPage = parseInt(this.value);
             currentPage = 1;
             render();
+        });
+    });
+	
+	// ----------------------------------
+    // LOGIKA ZOOM & SLIDER
+    // ----------------------------------
+    let currentZoom = 1;
+
+    // Fungsi update zoom (dipanggil tombol + / -)
+    function updateZoom(change) {
+        const slider = document.getElementById('zoomSlider');
+        let newVal = parseFloat(slider.value) + change;
+        
+        // Batasi min/max sesuai atribut slider
+        if (newVal > slider.max) newVal = slider.max;
+        if (newVal < slider.min) newVal = slider.min;
+
+        slider.value = newVal;
+        applyZoom(newVal);
+    }
+
+    // Fungsi menerapkan zoom ke gambar
+    function applyZoom(val) {
+        currentZoom = val;
+        const img = document.getElementById('expandedImg');
+        img.style.transform = `scale(${val})`;
+    }
+
+    // Fungsi Menutup Zoom
+    function closeZoom() {
+        document.getElementById("imageViewer").style.display = "none";
+        // Reset zoom saat ditutup biar pas dibuka lagi normal
+        document.getElementById('zoomSlider').value = 1;
+        applyZoom(1);
+    }
+
+    // Event Listener saat halaman siap
+    document.addEventListener("DOMContentLoaded", () => {
+        const slider = document.getElementById('zoomSlider');
+        const viewer = document.getElementById('imageViewer');
+        const img = document.getElementById('expandedImg');
+
+        // 1. Logic Slider Digeser
+        slider.addEventListener('input', function() {
+            applyZoom(this.value);
+        });
+
+        // 2. Logic Scroll Mouse (Wheel)
+        viewer.addEventListener('wheel', function(e) {
+            e.preventDefault(); // Matikan scroll halaman
+            let change = e.deltaY > 0 ? -0.1 : 0.1; // Scroll bawah = zoom out, atas = zoom in
+            updateZoom(change);
+        });
+
+        // 3. Logic Klik Background untuk Tutup
+        viewer.addEventListener('click', function(e) {
+            // Hanya tutup jika yang diklik adalah background hitam
+            // (Bukan gambar, dan bukan slider/tombol)
+            if (e.target === viewer) {
+                closeZoom();
+            }
+        });
+        
+        // Mencegah klik pada gambar menutup zoom (biar user bisa drag/lihat2)
+        img.addEventListener('click', function(e) {
+            e.stopPropagation(); 
         });
     });
 </script>
