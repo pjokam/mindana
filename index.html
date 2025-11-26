@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindana - Katalog Pencari Jodoh</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+	<style>
+        :root {
+            --primary-color: #8b5a2b;
+            --secondary-color: #d4a76a;
+            --accent-color: #f1e6d6;
+            --text-dark: #3a2c1a;
+            --text-light: #7a6a53;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: var(--text-dark);
+            background-color: #f9f7f3;
+        }
+		
+		
+		
+        .logo {
+			font-family: 'Great Vibes', cursive; /* Font sambung estetik */
+			font-size: 3rem; /* Ukuran diperbesar agar lekukannya terlihat jelas */
+			font-weight: 400;  /* Great Vibes tidak butuh bold */
+			
+			/* --- Efek Warna Gradasi (Emas ke Coklat) --- */
+			background: linear-gradient(45deg, #8b5a2b, #d4a76a, #8b5a2b);
+			background-size: 200% auto;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			color: transparent;
+			
+			/* --- Efek Shadow/Bayangan --- */
+			/* Menggunakan filter drop-shadow karena text-shadow tidak jalan di text transparan */
+			filter: drop-shadow(2px 2px 2px rgba(139, 90, 43, 0.2));
+			
+			text-decoration: none;
+			transition: all 0.5s ease;
+			padding-bottom: 5px; /* Sedikit ruang agar buntut huruf 'g' atau 'j' tidak terpotong */
+		}
+
+		/* Efek saat mouse diarahkan ke logo (Mengkilap) */
+		.logo:hover {
+			background-position: right center; /* Menggerakkan gradasi warna */
+			filter: drop-shadow(3px 3px 4px rgba(139, 90, 43, 0.4)); /* Shadow makin tegas */
+			transform: scale(1.05); /* Sedikit membesar */
+		}
+
+		/* Hapus style span lama jika ada, biar tidak menabrak */
+		.logo span {
+			color: inherit;
+			-webkit-text-fill-color: inherit;
+		}
+		
+		
+		
+        .navbar {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 15px 0;
+        }
+        
+        
+        
+        .search-section {
+            background-color: white;
+            padding: 30px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .search-bar {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .search-bar .form-control {
+            border-radius: 30px;
+            padding: 12px 25px;
+            border: 1px solid var(--secondary-color);
+        }
+        
+        .search-bar .btn {
+            border-radius: 30px;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 25px;
+        }
+        
+        .biodata-count {
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            text-align: center;
+            margin-top: 15px;
+        }
+        
+        .hero-banner {
+			position: relative; /* Penting untuk container */
+			overflow: hidden;   /* Agar video tidak keluar batas */
+			padding: 200px 0;
+			text-align: center;
+			color: white;
+			/* Background image lama dihapus/tidak dipakai lagi */
+		}
+		.video-bg {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover; /* Agar video full screen dan tidak gepeng */
+			z-index: 0;        /* Paling belakang */
+		}
+
+		/* Class baru untuk Lapisan Gelap (Overlay) agar teks terbaca */
+		.hero-overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(139, 90, 43, 0.7); /* Warna coklat transparan (sesuai tema) */
+			/* Atau gunakan rgba(0,0,0,0.6) untuk hitam transparan */
+			z-index: 1; /* Di atas video */
+		}
+
+		/* Class baru untuk Konten Teks */
+		.hero-content {
+			position: relative;
+			z-index: 2; /* Paling depan (di atas video & overlay) */
+		}
+        
+        .hero-banner h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .hero-banner p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        
+        .btn-primary-custom {
+            background-color: var(--secondary-color);
+            border: none;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary-custom:hover {
+            background-color: var(--primary-color);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin: 60px 0 40px;
+            color: var(--primary-color);
+            font-weight: 700;
+            position: relative;
+        }
+        
+        .section-title:after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 3px;
+            background-color: var(--secondary-color);
+            margin: 10px auto;
+        }
+        
+        .card-biodata {
+            border: none;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+            margin-bottom: 25px;
+            height: 100%;
+        }
+        
+        .card-biodata:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+        }
+        
+        .card-img-top {
+            height: 400px;
+            object-fit: cover;
+            border-bottom: 2px solid var(--secondary-color);
+        }
+        
+        .card-body {
+            padding: 15px;
+        }
+        
+        .card-title {
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+        
+        .card-text {
+            color: var(--text-light);
+            margin-bottom: 12px;
+            font-size: 0.85rem;
+            line-height: 1.4;
+        }
+        
+        .biodata-details {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .biodata-details li {
+            margin-bottom: 6px;
+            font-size: 0.8rem;
+        }
+        
+        .biodata-details li i {
+            color: var(--secondary-color);
+            width: 16px;
+            margin-right: 5px;
+        }
+        
+        .btn-outline-custom {
+            border: 1px solid var(--primary-color);
+            color: var(--primary-color);
+            border-radius: 20px;
+            padding: 6px 15px;
+            font-weight: 600;
+            transition: all 0.3s;
+            width: 100%;
+            font-size: 0.85rem;
+        }
+        
+        .btn-outline-custom:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 40px 0 20px;
+            margin-top: 60px;
+        }
+        
+        .footer-logo {
+            font-weight: 700;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        
+        .footer-links h5 {
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--accent-color);
+        }
+        
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+        }
+        
+        .copyright {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #ddd;
+            font-size: 0.9rem;
+        }
+        
+        /* Filter Section */
+        .filter-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            margin-bottom: 30px;
+        }
+        
+        .filter-title {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .form-label {
+            font-weight: 500;
+            color: var(--text-dark);
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .hero-banner {
+                padding: 60px 0;
+            }
+            
+            .hero-banner h1 {
+                font-size: 2.2rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .card-img-top {
+                height: 460px;
+            }
+        }
+		
+		/* --- TAMBAHAN CUSTOM WARNA BADGE --- */
+		.badge-pink {
+			background-color: #d63384 !important; /* Pink Bootstrap */
+			color: white;
+		}
+		.badge-ungu {
+			background-color: #6f42c1 !important; /* Ungu Bootstrap */
+			color: white;
+		}
+		.badge-oranye {
+			background-color: #fd7e14 !important; /* Orange Bootstrap */
+			color: white;
+		}
+		/* Memastikan badge terlihat rapi */
+		.badge {
+			font-weight: 5000;
+			letter-spacing: 0.5px;
+		}
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">Mindana</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <div class="ms-auto d-flex align-items-center">
+                    <div class="biodata-count">
+                        <i class="fas fa-users me-2"></i> <span id="totalBiodata">0</span> Biodata Tersedia
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+		<video autoplay muted loop playsinline class="video-bg">
+			<source src="video.mp4" type="video/mp4">
+			Browser Anda tidak mendukung tag video.
+		</video>
+
+		<div class="hero-overlay"></div>
+
+		<div class="container hero-content">
+			<h1>Menumbuhkan Iman, Menyambut Pendamping Idaman</h1>
+			<p>Platform pencarian jodoh dengan nilai-nilai islami untuk menemukan pasangan hidup yang tepat dan barokah</p>
+			<a href="#katalog" class="btn btn-primary-custom">Lihat Katalog <i class="fas fa-arrow-down ms-2"></i></a>
+		</div>
+	</section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            
+            <div class="biodata-count">
+                Menampilkan <span id="displayedBiodata">0</span> dari <span id="totalBiodata2">0</span> Biodata
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="container mt-5">
+        <div class="filter-section">
+            <h4 class="filter-title">Filter Pencarian</h4>
+            <div class="row">
+				<div class="search-bar">
+					<div class="input-group">
+						<input type="text" class="form-control" id="searchInput" placeholder="Cari Nama, Warna, Daerah, atau Pekerjaan">
+						<button class="btn" type="button" onclick="searchBiodata()"><i class="fas fa-search"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-4">
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Jenis Kelamin</label>
+                    <select class="form-select" id="genderFilter">
+                        <option value="all" selected>Semua</option>
+                        <option value="Laki-Laki">Laki-laki</option>
+                        <option value="Perempuan">Perempuan</option>
+                    </select>
+                </div>
+                
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Lokasi</label>
+                    <select class="form-select" id="locationFilter">
+                        <option value="all" selected>Semua Daerah</option>
+                        <option value="Blora">Blora</option>
+						<option value="Rembang">Rembang</option>
+                        <option value="Pati 1">Pati 1</option>
+						<option value="Pati 2">Pati 2</option>
+						<option value="Kudus">Kudus</option>
+						<option value="Jepara">Jepara</option>
+						<option value="Demak">Demak</option>
+						<option value="Grobogan">Grobogan</option>
+                        <option value="Tuban">Tuban</option>
+                    </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Pendidikan</label>
+                    <select class="form-select" id="educationFilter">
+						<option value="all" selected>Semua Pendidikan</option>
+                        <option value="SD/Sederajat">SD/Sederajat</option>
+						<option value="SMP/Sederajat">SMP/Sederajat</option>
+						<option value="SMA/Sederajat">SMA/Sederajat</option>
+						<option value="SMK">SMK</option>
+						<option value="D1/D2/D3">D1 / D2 / D3</option>
+						<option value="D4">D4</option>
+						<option value="S1">S1</option>
+						<option value="S2">S2</option>
+						<option value="others">Lainnya</option>
+                    </select>
+                </div>
+				<div class="col-md-3 mb-3">
+					<label class="form-label">Tahun Kelahiran</label>
+					<select class="form-select" id="yearFilter">
+						<option value="all" selected>Semua Tahun</option>
+						<option value="1950-1960">1950 - 1960</option>
+						<option value="1960-1970">1960 - 1970</option>
+						<option value="1970-1980">1970 - 1980</option>
+						<option value="1980-1990">1980 - 1990</option>
+						<option value="1990-2000">1990 - 2000</option>
+						<option value="2000-2010">2000 - 2010</option>
+					</select>
+				</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Katalog Biodata -->
+    <section id="katalog" class="container">
+        <h2 class="section-title">Katalog Pencari Jodoh</h2>
+        <div class="d-flex justify-content-end mb-3">
+			<label class="me-2">Tampilkan:</label>
+			<select id="itemsPerPage" class="form-select w-auto">
+				<option value="10">10</option>
+				<option value="20" selected>20</option>
+				<option value="40">40</option>
+				<option value="50">50</option>
+			</select>
+		</div>
+        <div class="row" id="biodataContainer">
+            <!-- Biodata akan diisi oleh JavaScript -->
+        </div>
+        
+        <!-- Pagination -->
+        <nav aria-label="Page navigation" class="mt-5">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+	
+	
+	
+	<!-- Modal Detail Biodata -->
+	<div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg modal-dialog-centered">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="detailModalLabel">Detail Biodata</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		  </div>
+		  <div class="modal-body">
+			<div class="row">
+			  <div class="col-md-4 text-center">
+				<img id="detailFoto" src="" alt="Foto" class="img-fluid rounded mb-3" style="max-height:800px; object-fit:cover;">
+			  </div>
+			  <div class="col-md-8">
+				<ul class="list-group list-group-flush" id="detailList"></ul>
+			  </div>
+			</div>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-logo">Mindana</div>
+                    <p>Menumbuhkan Iman, Menyambut Pendamping Idaman. Platform pencarian jodoh dengan nilai-nilai islami untuk menemukan pasangan hidup yang tepat dan barokah.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h5>Tautan Cepat</h5>
+                        <ul>
+                            <li><a href="#">Beranda</a></li>
+                            <li><a href="#katalog">Katalog</a></li>
+                            <li><a href="#">Cara Bergabung</a></li>
+                            <li><a href="#">Testimoni</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h5>Bantuan</h5>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Syarat & Ketentuan</a></li>
+                            <li><a href="#">Kebijakan Privasi</a></li>
+                            <li><a href="#">Hubungi Kami</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="footer-links">
+                        <h5>Kontak</h5>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt me-2"></i> Jl. Kebajikan No. 123, Jakarta</li>
+                            <li><i class="fas fa-phone me-2"></i> (021) 1234-5678</li>
+                            <li><i class="fas fa-envelope me-2"></i> info@temubarokah.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2023 TemuBarokah. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- JavaScript untuk Data dan Fungsi Pencarian -->
+    <script src="biodata.js"></script>
+
+<script>
+    // ----------------------------------
+    // VARIABLES
+    // ----------------------------------
+    let filteredData = (typeof biodata !== 'undefined') ? biodata : [];
+    let currentPage = 1;
+    let itemsPerPage = 20;
+
+    // ----------------------------------
+    // HELPER: Extract Year
+    // ----------------------------------
+    function extractYear(ttl) {
+        if (!ttl) return 0;
+        const match = ttl.match(/\b(19|20)\d{2}\b/);
+        return match ? parseInt(match[0]) : 0;
+    }
+
+    // ----------------------------------
+    // HELPER: Convert Drive Link
+    // ----------------------------------
+    function convertDriveLink(url) {
+        if (!url) return 'https://via.placeholder.com/400x400?text=No+Image';
+        if (url.includes("drive.google.com")) {
+            const id = url.split("id=")[1] || url.split("/d/")[1]?.split("/")[0];
+            return `https://drive.google.com/thumbnail?id=${id}&sz=w1000`;
+        }
+        return url;
+    }
+
+   
+
+    // ----------------------------------
+    // HELPER: Color Class
+    // ----------------------------------
+    function getColorClass(colorName) {
+        if (!colorName) return "bg-secondary";
+        const lower = colorName.toLowerCase();
+
+        if (lower.includes("pink") || lower.includes("muda")) return "badge-pink";
+        if (lower.includes("merah")) return "bg-danger";
+        if (lower.includes("oranye") || lower.includes("orange")) return "badge-oranye";
+        if (lower.includes("kuning")) return "bg-warning text-dark";
+        if (lower.includes("hijau")) return "bg-success";
+        if (lower.includes("biru")) return "bg-primary";
+        if (lower.includes("ungu") || lower.includes("purple")) return "badge-ungu";
+        if (lower.includes("hitam")) return "bg-dark";
+        
+        return "bg-secondary";
+    }
+	
+	// ----------------------------------
+    // HELPER: Shuffle Array (Acak Urutan)
+    // ----------------------------------
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+    }
+
+    // ----------------------------------
+    // RENDER
+    // ----------------------------------
+    function render() {
+        const start = (currentPage - 1) * itemsPerPage;
+        const end = start + itemsPerPage;
+        const currentItems = filteredData.slice(start, end);
+        displayBiodata(currentItems);
+        buildPagination();
+    }
+
+    // ----------------------------------
+    // DISPLAY BIODATA
+    // ----------------------------------
+    function displayBiodata(data) {
+        const container = document.getElementById('biodataContainer');
+        container.innerHTML = "";
+        document.getElementById("displayedBiodata").textContent = data.length;
+
+        if (data.length === 0) {
+            container.innerHTML = `
+                <div class="col-12 text-center py-5">
+                    <div class="text-muted">
+                        <i class="fas fa-search fa-3x mb-3"></i>
+                        <p class="fs-5">Tidak ada biodata yang sesuai dengan pencarian.</p>
+                        <button class="btn btn-outline-primary btn-sm mt-2" onclick="resetFilter()">Reset Filter</button>
+                    </div>
+                </div>`;
+            return;
+        }
+
+        data.forEach(person => {
+            // PERBAIKAN: Gunakan nama key yang konsisten sesuai JSON Anda
+            // Asumsi key di JSON Anda adalah: "Foto Diri (Tampak Seluruh Tubuh)"
+            const rawFoto = person["Foto Diri (Tampak Seluruh Tubuh)"] || "";
+            
+            // Encode URL Foto untuk jadi ID
+            const uniqueID = encodeURIComponent(rawFoto);
+            
+            const fotoo = convertDriveLink(rawFoto);
+            const colorLabel = person["Kode Warna"] || "Info"; 
+            const badgeClass = getColorClass(colorLabel);
+            
+            const card = document.createElement("div");
+            card.className = "col-xl-3 col-lg-4 col-md-6 mb-4";
+
+            card.innerHTML = `
+                <div class="card card-biodata h-100">
+                    <div style="position:relative;">
+                        <img src="${fotoo}" class="card-img-top" alt="Foto ${person["Nama Inisial"]}" onerror="this.src='https://via.placeholder.com/400x400?text=Error+Img'">
+                        <span class="badge ${badgeClass}" 
+                              style="position:absolute; top:10px; right:10px; font-size: 1.2rem; padding: 10px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+                            ${colorLabel}
+                        </span>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">${person["Nama Inisial"]}</h5>
+                        <ul class="biodata-details mb-3 flex-grow-1">
+                            <li><i class="fas fa-calendar-alt text-muted"></i><strong>TTL : </strong> ${person["Tempat, Tanggal Lahir"]}</li>
+                            <li><i class="fas fa-map-marker-alt text-muted"></i><strong>Daerah : </strong> ${person["Daerah Sambung"]}</li>
+                            <li><i class="fas fa-graduation-cap text-muted"></i><strong>Pendidikan : </strong> ${person["Pendidikan Terakhir"]}</li>
+                            <li><i class="fas fa-briefcase text-muted"></i><strong>Pekerjaan: </strong> ${person["Pekerjaan"]}</li>
+                        </ul>
+                        
+                        <button class="btn btn-outline-custom mt-auto w-100" onclick="viewDetail('${uniqueID}')">
+                            <i class="fas fa-eye me-1"></i> Lihat Detail
+                        </button>
+                    </div>
+                </div>
+            `;
+            container.appendChild(card);
+        });
+    }
+
+    // ----------------------------------
+    // VIEW DETAIL (PERBAIKAN BESAR)
+    // ----------------------------------
+    function viewDetail(encodedFoto) {
+        // 1. Decode URL
+        const realFotoURL = decodeURIComponent(encodedFoto);
+        
+        // 2. Cari data berdasarkan URL Foto (Pastikan key sesuai JSON)
+        const person = biodata.find(p => (p["Foto Diri (Tampak Seluruh Tubuh)"] || "") === realFotoURL);
+        
+        if (!person) {
+            console.error("Data tidak ditemukan untuk foto:", realFotoURL);
+            return;
+        }
+
+       
+        // 4. Update Foto Modal
+        document.getElementById('detailFoto').src = convertDriveLink(person["Foto Diri (Tampak Seluruh Tubuh)"]);
+
+        // 5. Update Isi Modal
+        document.getElementById('detailList').innerHTML = `
+            <li class="list-group-item">
+                <h4 class="text-primary mb-3">${person["Nama Inisial"]}</h4>
+                <span class="badge ${getColorClass(person["Kode Warna"])} mb-2 fs-6">${person["Kode Warna"]}</span>
+            </li>
+            <li class="list-group-item"><strong>Jenis Kelamin:</strong> ${person["Jenis Kelamin"]}</li>
+            <li class="list-group-item"><strong>Status:</strong> ${person["Status Pernikahan"]}</li>
+            <li class="list-group-item"><strong>TTL:</strong> ${person["Tempat, Tanggal Lahir"]}</li>
+            <li class="list-group-item"><strong>Pekerjaan:</strong> ${person["Pekerjaan"]}</li>
+            <li class="list-group-item"><strong>Pendidikan:</strong> ${person["Pendidikan Terakhir"]}</li>
+            <li class="list-group-item"><strong>Fisik:</strong> ${person["Tinggi Badan/Berat Badan"]}</li>
+            <li class="list-group-item"><strong>Hobi:</strong> ${person["Hobi"]}</li>
+            <li class="list-group-item bg-light"><strong>Kriteria Idaman:</strong><br> ${person["Mencari Pasangan yang..."]}</li>
+            <li class="list-group-item"><strong>Sambung:</strong> ${person["Daerah Sambung"]} (${person["Desa Sambung"]} - ${person["Kelompok Sambung"]})</li>
+            <li class="list-group-item">
+                <strong>Kontak Tim PNKB Kelompok:</strong><br>
+                ${person["Nama dan No HP Tim PNKB Kelompok"]} 
+            </li>
+            <li class="list-group-item">
+                <strong>Kontak Tim PNKB Daerah:</strong><br>
+                ${person["Nama dan No HP Tim PNKB Daerah"]}
+            </li>
+        `;
+
+        new bootstrap.Modal(document.getElementById('detailModal')).show();
+    }
+
+    // ----------------------------------
+    // PAGINATION
+    // ----------------------------------
+    function buildPagination() {
+        const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+        const pagination = document.querySelector(".pagination");
+        pagination.innerHTML = "";
+
+        if (totalPages <= 1) return;
+
+        pagination.innerHTML += `
+            <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
+                <button class="page-link" onclick="changePage(${currentPage - 1})">Previous</button>
+            </li>
+        `;
+
+        for (let i = 1; i <= totalPages; i++) {
+            pagination.innerHTML += `
+                <li class="page-item ${i === currentPage ? 'active' : ''}">
+                    <button class="page-link" onclick="changePage(${i})">${i}</button>
+                </li>
+            `;
+        }
+
+        pagination.innerHTML += `
+            <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
+                <button class="page-link" onclick="changePage(${currentPage + 1})">Next</button>
+            </li>
+        `;
+    }
+
+    function changePage(page) {
+        if (page < 1) return;
+        currentPage = page;
+        render();
+        const katalog = document.getElementById('katalog');
+        if(katalog) katalog.scrollIntoView({behavior: 'smooth'});
+    }
+
+    // ----------------------------------
+    // SEARCH + FILTER (UPDATED)
+    // ----------------------------------
+    function searchBiodata() {
+        // 1. Ambil input mentah
+        const rawInput = document.getElementById('searchInput').value.toLowerCase();
+        
+        // 2. Buat versi "BERSIH" untuk pencarian kode warna
+        // Regex /[^a-z0-9]/g artinya: Hapus apa pun yang BUKAN huruf (a-z) atau angka (0-9)
+        // Jadi "Kuning-1", "Kuning 1", "Kuning_1" semua menjadi "kuning1"
+        const cleanInput = rawInput.replace(/[^a-z0-9]/g, '');
+
+        const gender = document.getElementById('genderFilter').value;
+        const lokasi = document.getElementById('locationFilter').value;
+        const pendidikan = document.getElementById('educationFilter').value;
+        const yearRange = document.getElementById('yearFilter').value;
+
+        if (typeof biodata === 'undefined') return;
+
+        const pendidikanStandar = [
+            "SD/Sederajat", "SMP/Sederajat", "SMA/Sederajat", "SMK",
+            "D1/D2/D3", "D4", "S1", "S2"
+        ];
+
+        filteredData = biodata.filter(p => {
+            // --- A. LOGIKA PENCARIAN TEXT ---
+            
+            // A1. Pencarian Standar (Nama, Daerah, Pekerjaan)
+            // Tetap gunakan rawInput agar spasi di nama orang tetap berpengaruh (misal "Siti A" beda dengan "Sitia")
+            const nama = (p["Nama Inisial"] || "").toLowerCase();
+            const daerah = (p["Daerah Sambung"] || "").toLowerCase();
+            const pekerjaan = (p["Pekerjaan"] || "").toLowerCase();
+            
+            const matchStandard = nama.includes(rawInput) || 
+                                  daerah.includes(rawInput) || 
+                                  pekerjaan.includes(rawInput);
+
+            // A2. Pencarian Spesial Kode Warna (Smart Search)
+            const kodeWarnaRaw = (p["Kode Warna"] || "").toLowerCase();
+            // Bersihkan data kode warna juga (Merah-1 menjadi merah1)
+            const kodeWarnaClean = kodeWarnaRaw.replace(/[^a-z0-9]/g, ''); 
+            
+            // Cek kecocokan (Hanya jika cleanInput tidak kosong)
+            const matchWarna = (cleanInput !== "" && kodeWarnaClean.includes(cleanInput));
+
+            // Gabungkan: Cocok jika (Standard OK) ATAU (Warna OK)
+            const matchSearch = matchStandard || matchWarna;
+
+
+            // --- B. LOGIKA FILTER DROPDOWN ---
+
+            const matchGender = gender === "all" || p["Jenis Kelamin"] === gender;
+            const matchLocation = lokasi === "all" || p["Daerah Sambung"] === lokasi;
+            
+            let matchEdu = true;
+            if (pendidikan === "others") {
+                matchEdu = !pendidikanStandar.includes(p["Pendidikan Terakhir"]);
+            } else if (pendidikan !== "all") {
+                matchEdu = p["Pendidikan Terakhir"] === pendidikan;
+            }
+
+            let matchYear = true;
+            const birthYear = extractYear(p["Tempat, Tanggal Lahir"]);
+            if (yearRange !== "all") {
+                if (birthYear === 0) {
+                    matchYear = false; 
+                } else {
+                    const [minY, maxY] = yearRange.split("-").map(Number);
+                    matchYear = birthYear >= minY && birthYear <= maxY;
+                }
+            }
+
+            return matchSearch && matchGender && matchLocation && matchEdu && matchYear;
+        });
+
+        currentPage = 1;
+        render();
+    }
+
+    function resetFilter() {
+        document.getElementById('searchInput').value = '';
+        document.getElementById('genderFilter').value = 'all';
+        document.getElementById('locationFilter').value = 'all';
+        document.getElementById('educationFilter').value = 'all';
+        document.getElementById('yearFilter').value = 'all';
+        searchBiodata();
+    }
+
+    // ----------------------------------
+    // INIT
+    // ----------------------------------
+    document.addEventListener("DOMContentLoaded", () => {
+        if (typeof biodata !== 'undefined') {
+			shuffleArray(biodata);
+            document.getElementById("totalBiodata").textContent = biodata.length;
+            document.getElementById("totalBiodata2").textContent = biodata.length;
+            render();
+        } else {
+            console.error("File biodata.js belum dimuat!");
+        }
+
+        document.getElementById('genderFilter').addEventListener("change", searchBiodata);
+        document.getElementById('locationFilter').addEventListener("change", searchBiodata);
+        document.getElementById('educationFilter').addEventListener("change", searchBiodata);
+        document.getElementById('yearFilter').addEventListener("change", searchBiodata); 
+
+        document.getElementById("searchInput").addEventListener("keyup", e => {
+            searchBiodata();
+        });
+
+        document.getElementById("itemsPerPage").addEventListener("change", function() {
+            itemsPerPage = parseInt(this.value);
+            currentPage = 1;
+            render();
+        });
+    });
+</script>
+</body>
+</html>
