@@ -517,6 +517,38 @@
 			}
 		}
 		
+		
+		
+		/* --- CSS UNTUK LOGIN GATE --- */
+		#loginGate {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(135deg, #3a2c1a 0%, #1a120b 100%); /* Warna gelap elegan */
+			z-index: 20000; /* Paling atas, di atas Zoom & Modal */
+			overflow-y: auto; /* Agar bisa discroll di HP jika layar pendek */
+			padding: 20px 0;
+		}
+
+		.login-card {
+			border: none;
+			border-radius: 15px;
+			box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+			transition: transform 0.3s;
+			background-color: rgba(255, 255, 255, 0.95);
+		}
+
+		.login-card:hover {
+			transform: translateY(-5px);
+		}
+
+		/* Class tambahan untuk mematikan scroll website utama */
+		body.locked {
+			overflow: hidden;
+		}
+		
     </style>
 </head>
 <body>
@@ -754,433 +786,520 @@
             </div>
         </div>
     </footer>
+	
+	<div id="loginGate">
+		<div class="container h-100">
+			<div class="row h-100 justify-content-center align-items-center">
+				<div class="col-12 text-center mb-5">
+					<h1 class="logo text-white mb-3" style="font-size: 3.5rem;">Mindana</h1>
+					<p class="text-white fs-5">Silakan masukkan token akses sesuai kategori Anda</p>
+				</div>
 
+				<div class="col-lg-4 col-md-6 col-12 mb-4">
+					<div class="card login-card h-100">
+						<div class="card-body text-center">
+							<i class="fas fa-male fa-3x text-primary mb-3"></i>
+							<h4 class="card-title">Ikhwan</h4>
+							<p class="card-text small text-muted">Untuk melihat biodata Akhwat</p>
+							<input type="password" id="tokenIkhwan" class="form-control text-center mb-3" placeholder="Token Ikhwan">
+							<button class="btn btn-primary w-100" onclick="attemptLogin('ikhwan')">Masuk</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 col-12 mb-4">
+					<div class="card login-card h-100">
+						<div class="card-body text-center">
+							<i class="fas fa-female fa-3x text-danger mb-3"></i>
+							<h4 class="card-title">Akhwat</h4>
+							<p class="card-text small text-muted">Untuk melihat biodata Ikhwan</p>
+							<input type="password" id="tokenAkhwat" class="form-control text-center mb-3" placeholder="Token Akhwat">
+							<button class="btn btn-danger w-100" onclick="attemptLogin('akhwat')">Masuk</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 col-12 mb-4">
+					<div class="card login-card h-100">
+						<div class="card-body text-center">
+							<i class="fas fa-users-cog fa-3x text-success mb-3"></i>
+							<h4 class="card-title">Tim PNKB</h4>
+							<p class="card-text small text-muted">Akses penuh semua data</p>
+							<input type="password" id="tokenPnkb" class="form-control text-center mb-3" placeholder="Token PNKB">
+							<button class="btn btn-success w-100" onclick="attemptLogin('pnkb')">Masuk Tim PnKB</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-12 text-center text-white-50 mt-4">
+					<small>&copy; 2025 PnKB Blora. All rights reserved.</small>
+				</div>
+			</div>
+		</div>
+	</div>
+	
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- JavaScript untuk Data dan Fungsi Pencarian -->
-    <script src="biodata.js"></script>
+	<script src="biodata.js"></script>
 
-<script>
-    // ----------------------------------
-    // VARIABLES
-    // ----------------------------------
-    let filteredData = (typeof biodata !== 'undefined') ? biodata : [];
-    let currentPage = 1;
-    let itemsPerPage = 20;
-
-    // ----------------------------------
-    // HELPER: Extract Year
-    // ----------------------------------
-    function extractYear(ttl) {
-        if (!ttl) return 0;
-        const match = ttl.match(/\b(19|20)\d{2}\b/);
-        return match ? parseInt(match[0]) : 0;
-    }
-
-    // ----------------------------------
-    // HELPER: Convert Drive Link
-    // ----------------------------------
-    function convertDriveLink(url) {
-        if (!url) return 'https://via.placeholder.com/400x400?text=No+Image';
-        if (url.includes("drive.google.com")) {
-            const id = url.split("id=")[1] || url.split("/d/")[1]?.split("/")[0];
-            return `https://drive.google.com/thumbnail?id=${id}&sz=w1000`;
-        }
-        return url;
-    }
-
-   
-
-    // ----------------------------------
-    // HELPER: Color Class
-    // ----------------------------------
-    function getColorClass(colorName) {
-        if (!colorName) return "bg-secondary";
-        const lower = colorName.toLowerCase();
-
-        if (lower.includes("pink") || lower.includes("muda")) return "badge-pink";
-        if (lower.includes("merah")) return "bg-danger";
-        if (lower.includes("oranye") || lower.includes("orange")) return "badge-oranye";
-        if (lower.includes("kuning")) return "bg-warning text-dark";
-        if (lower.includes("hijau")) return "bg-success";
-        if (lower.includes("biru")) return "bg-primary";
-        if (lower.includes("ungu") || lower.includes("purple")) return "badge-ungu";
-        if (lower.includes("hitam")) return "bg-dark";
-        
-        return "bg-secondary";
-    }
-	
-	// ----------------------------------
-    // HELPER: Shuffle Array (Acak Urutan)
-    // ----------------------------------
-    function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-    }
-
-    // ----------------------------------
-    // RENDER
-    // ----------------------------------
-    function render() {
-        const start = (currentPage - 1) * itemsPerPage;
-        const end = start + itemsPerPage;
-        const currentItems = filteredData.slice(start, end);
-        displayBiodata(currentItems);
-        buildPagination();
-    }
-
-    // ----------------------------------
-    // DISPLAY BIODATA
-    // ----------------------------------
-    function displayBiodata(data) {
-        const container = document.getElementById('biodataContainer');
-        container.innerHTML = "";
-        document.getElementById("displayedBiodata").textContent = data.length;
-
-        if (data.length === 0) {
-            container.innerHTML = `
-                <div class="col-12 text-center py-5">
-                    <div class="text-muted">
-                        <i class="fas fa-search fa-3x mb-3"></i>
-                        <p class="fs-5">Tidak ada biodata yang sesuai dengan pencarian.</p>
-                        <button class="btn btn-outline-primary btn-sm mt-2" onclick="resetFilter()">Reset Filter</button>
-                    </div>
-                </div>`;
-            return;
-        }
-
-        data.forEach(person => {
-            // PERBAIKAN: Gunakan nama key yang konsisten sesuai JSON Anda
-            // Asumsi key di JSON Anda adalah: "Foto Diri (Tampak Seluruh Tubuh)"
-            const rawFoto = person["Foto Diri (Tampak Seluruh Tubuh)"] || "";
-            
-            // Encode URL Foto untuk jadi ID
-            const uniqueID = encodeURIComponent(rawFoto);
-            
-            const fotoo = convertDriveLink(rawFoto);
-            const colorLabel = person["Kode Warna"] || "Info"; 
-            const badgeClass = getColorClass(colorLabel);
-            
-            const card = document.createElement("div");
-            card.className = "col-xl-3 col-lg-4 col-md-6 mb-4";
-
-            card.innerHTML = `
-                <div class="card card-biodata h-100">
-                    <div style="position:relative;">
-                        <img src="${fotoo}" class="card-img-top" alt="Foto ${person["Nama Inisial"]}" onerror="this.src='https://via.placeholder.com/400x400?text=Error+Img'">
-                        <span class="badge ${badgeClass}" 
-                              style="position:absolute; top:10px; right:10px; font-size: 1.2rem; padding: 10px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
-                            ${colorLabel}
-                        </span>
-                    </div>
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">${person["Nama Inisial"]}</h5>
-                        <ul class="biodata-details mb-3 flex-grow-1">
-                            <li><i class="fas fa-calendar-alt text-muted"></i><strong>TTL : </strong> ${person["Tempat, Tanggal Lahir"]}</li>
-                            <li><i class="fas fa-map-marker-alt text-muted"></i><strong>Daerah : </strong> ${person["Daerah Sambung"]}</li>
-                            <li><i class="fas fa-graduation-cap text-muted"></i><strong>Pendidikan : </strong> ${person["Pendidikan Terakhir"]}</li>
-                            <li><i class="fas fa-briefcase text-muted"></i><strong>Pekerjaan: </strong> ${person["Pekerjaan"]}</li>
-                        </ul>
-                        
-                        <button class="btn btn-outline-custom mt-auto w-100" onclick="viewDetail('${uniqueID}')">
-                            <i class="fas fa-eye me-1"></i> Lihat Detail
-                        </button>
-                    </div>
-                </div>
-            `;
-            container.appendChild(card);
-        });
-    }
-
-    // ----------------------------------
-    // VIEW DETAIL (PERBAIKAN BESAR)
-    // ----------------------------------
-    function viewDetail(encodedFoto) {
-        const realFotoURL = decodeURIComponent(encodedFoto);
-        const person = biodata.find(p => (p["Foto Diri (Tampak Seluruh Tubuh)"] || "") === realFotoURL);
-        
-                
-        if (!person) {
-            console.error("Data tidak ditemukan untuk foto:", realFotoURL);
-            return;
-        }
+	<script>
+		// ==================================================
+		// 1. VARIABLES & CONFIGURATION
+		// ==================================================
+		let filteredData = (typeof biodata !== 'undefined') ? biodata : [];
+		let currentPage = 1;
+		let itemsPerPage = 20;
 		
-		// 1. Set gambar di modal (Kode LAMA)
-        const imgElement = document.getElementById('detailFoto');
-        imgElement.src = convertDriveLink(person["Foto Diri (Tampak Seluruh Tubuh)"]);
-        
-        // --- 2. TAMBAHAN BARU: AKTIFKAN KLIK UNTUK ZOOM ---
-        document.getElementById('imageContainerBtn').onclick = function() {
-            const viewer = document.getElementById("imageViewer");
-            const expandedImg = document.getElementById("expandedImg");
-            
-            // Set sumber gambar besar sama dengan gambar di modal
-            expandedImg.src = imgElement.src;
-            
-            // Tampilkan viewer
-            viewer.style.display = "flex";
-            viewer.style.alignItems = "center";
-            viewer.style.justifyContent = "center";
+		// Variabel Hak Akses (Token)
+		let userTargetGender = null; // 'Perempuan', 'Laki-Laki', atau 'ALL'
+
+		// Variabel Zoom & Drag
+		let currentZoom = 1;
+		let isDragging = false;
+		let startX, startY;
+		let translateX = 0, translateY = 0;
+
+
+		// ==================================================
+		// 2. HELPER FUNCTIONS
+		// ==================================================
+		
+		// Extract Tahun dari TTL
+		function extractYear(ttl) {
+			if (!ttl) return 0;
+			const match = ttl.match(/\b(19|20)\d{2}\b/);
+			return match ? parseInt(match[0]) : 0;
+		}
+
+		// Convert Link Google Drive
+		function convertDriveLink(url) {
+			if (!url) return 'https://via.placeholder.com/400x400?text=No+Image';
+			if (url.includes("drive.google.com")) {
+				const id = url.split("id=")[1] || url.split("/d/")[1]?.split("/")[0];
+				return `https://drive.google.com/thumbnail?id=${id}&sz=w1000`;
+			}
+			return url;
+		}
+
+		// Convert Warna ke Class Bootstrap/Custom
+		function getColorClass(colorName) {
+			if (!colorName) return "bg-secondary";
+			const lower = colorName.toLowerCase();
+			if (lower.includes("pink") || lower.includes("muda")) return "badge-pink";
+			if (lower.includes("merah")) return "bg-danger";
+			if (lower.includes("oranye") || lower.includes("orange")) return "badge-oranye";
+			if (lower.includes("kuning")) return "bg-warning text-dark";
+			if (lower.includes("hijau")) return "bg-success";
+			if (lower.includes("biru")) return "bg-primary";
+			if (lower.includes("ungu") || lower.includes("purple")) return "badge-ungu";
+			if (lower.includes("hitam")) return "bg-dark";
+			return "bg-secondary";
+		}
+
+		// Acak Urutan Array (Shuffle)
+		function shuffleArray(array) {
+			for (let i = array.length - 1; i > 0; i--) {
+				const j = Math.floor(Math.random() * (i + 1));
+				[array[i], array[j]] = [array[j], array[i]];
+			}
+		}
+
+		// Buat Link WhatsApp
+		function createWALink(contactStr) {
+			if (!contactStr) return "#";
+			let number = contactStr.replace(/\D/g, ''); 
+			if (number.startsWith('0')) {
+				number = '62' + number.substring(1);
+			}
+			return `https://wa.me/${number}`;
+		}
+
+
+		// ==================================================
+		// 3. LOGIC: LOGIN / TOKEN GATE
+		// ==================================================
+		function attemptLogin(role) {
+			let inputToken = "";
+			let valid = false;
+
+			if (role === 'ikhwan') {
+				inputToken = document.getElementById('tokenIkhwan').value;
+				if (inputToken === "sakinah354") {
+					userTargetGender = "Perempuan";
+					valid = true;
+					alert("Login Berhasil! Menampilkan biodata Akhwat.");
+				}
+			} else if (role === 'akhwat') {
+				inputToken = document.getElementById('tokenAkhwat').value;
+				if (inputToken === "mawaddah313") {
+					userTargetGender = "Laki-Laki";
+					valid = true;
+					alert("Login Berhasil! Menampilkan biodata Ikhwan.");
+				}
+			} else if (role === 'pnkb') {
+				inputToken = document.getElementById('tokenPnkb').value;
+				if (inputToken === "warrahmah123") {
+					userTargetGender = "ALL";
+					valid = true;
+					alert("Login Admin Berhasil! Menampilkan semua data.");
+				}
+			}
+
+			if (valid) {
+				// Buka Gate
+				document.getElementById('loginGate').style.display = 'none';
+				document.body.classList.remove('locked');
+				
+				// Atur Filter UI
+				resetFilter(); 
+				if (userTargetGender !== "ALL") {
+					document.getElementById('genderFilter').disabled = true;
+					document.getElementById('genderFilter').value = userTargetGender;
+				} else {
+					document.getElementById('genderFilter').disabled = false;
+				}
+			} else {
+				alert("Token Salah! Silakan coba lagi.");
+			}
+		}
+
+
+		// ==================================================
+		// 4. LOGIC: RENDER & DISPLAY DATA
+		// ==================================================
+		function render() {
+			const start = (currentPage - 1) * itemsPerPage;
+			const end = start + itemsPerPage;
+			const currentItems = filteredData.slice(start, end);
+			displayBiodata(currentItems);
+			buildPagination();
+		}
+
+		function displayBiodata(data) {
+			const container = document.getElementById('biodataContainer');
+			container.innerHTML = "";
+			document.getElementById("displayedBiodata").textContent = data.length;
+
+			if (data.length === 0) {
+				container.innerHTML = `
+					<div class="col-12 text-center py-5">
+						<div class="text-muted">
+							<i class="fas fa-search fa-3x mb-3"></i>
+							<p class="fs-5">Tidak ada biodata yang sesuai dengan pencarian.</p>
+							<button class="btn btn-outline-primary btn-sm mt-2" onclick="resetFilter()">Reset Filter</button>
+						</div>
+					</div>`;
+				return;
+			}
+
+			data.forEach(person => {
+				const rawFoto = person["Foto Diri (Tampak Seluruh Tubuh)"] || "";
+				const uniqueID = encodeURIComponent(rawFoto);
+				const fotoo = convertDriveLink(rawFoto);
+				const colorLabel = person["Kode Warna"] || "Info"; 
+				const badgeClass = getColorClass(colorLabel);
+				
+				const card = document.createElement("div");
+				card.className = "col-xl-3 col-lg-4 col-md-6 mb-4";
+
+				card.innerHTML = `
+					<div class="card card-biodata h-100">
+						<div style="position:relative;">
+							<img src="${fotoo}" class="card-img-top" alt="Foto ${person["Nama Inisial"]}" onerror="this.src='https://via.placeholder.com/400x400?text=Error+Img'">
+							<span class="badge ${badgeClass}" 
+								  style="position:absolute; top:10px; right:10px; font-size: 1.2rem; padding: 10px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+								${colorLabel}
+							</span>
+						</div>
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">${person["Nama Inisial"]}</h5>
+							<ul class="biodata-details mb-3 flex-grow-1">
+								<li><i class="fas fa-calendar-alt text-muted"></i><strong>TTL : </strong> ${person["Tempat, Tanggal Lahir"]}</li>
+								<li><i class="fas fa-map-marker-alt text-muted"></i><strong>Daerah : </strong> ${person["Daerah Sambung"]}</li>
+								<li><i class="fas fa-graduation-cap text-muted"></i><strong>Pendidikan : </strong> ${person["Pendidikan Terakhir"]}</li>
+								<li><i class="fas fa-briefcase text-muted"></i><strong>Pekerjaan: </strong> ${person["Pekerjaan"]}</li>
+							</ul>
+							<button class="btn btn-outline-custom mt-auto w-100" onclick="viewDetail('${uniqueID}')">
+								<i class="fas fa-eye me-1"></i> Lihat Detail
+							</button>
+						</div>
+					</div>
+				`;
+				container.appendChild(card);
+			});
+		}
+
+		function viewDetail(encodedFoto) {
+			const realFotoURL = decodeURIComponent(encodedFoto);
+			const person = biodata.find(p => (p["Foto Diri (Tampak Seluruh Tubuh)"] || "") === realFotoURL);
 			
+			if (!person) {
+				console.error("Data tidak ditemukan untuk foto:", realFotoURL);
+				return;
+			}
+			
+			// Link WA
+			const waKelompok = createWALink(person["Nama dan No HP Tim PNKB Kelompok"]);
+			const waDaerah = createWALink(person["Nama dan No HP Tim PNKB Daerah"]);
+
+			// Update Foto di Modal
+			const imgElement = document.getElementById('detailFoto');
+			imgElement.src = convertDriveLink(person["Foto Diri (Tampak Seluruh Tubuh)"]);
+			
+			// Setup Klik Foto untuk Zoom
+			document.getElementById('imageContainerBtn').onclick = function() {
+				const viewer = document.getElementById("imageViewer");
+				const expandedImg = document.getElementById("expandedImg");
+				
+				expandedImg.src = imgElement.src;
+				viewer.style.display = "flex";
+				viewer.style.alignItems = "center";
+				viewer.style.justifyContent = "center";
+				
+				// Reset Zoom
+				document.getElementById('zoomSlider').value = 1;
+				closeZoom(); // Reset posisi dulu
+				document.getElementById("imageViewer").style.display = "flex"; // Buka lagi
+			}
+			
+			// Update Isi Modal
+			document.getElementById('detailList').innerHTML = `
+				<li class="list-group-item">
+					<h4 class="text-primary mb-3">${person["Nama Inisial"]}</h4>
+					<span class="badge ${getColorClass(person["Kode Warna"])} mb-2 fs-6">${person["Kode Warna"]}</span>
+				</li>
+				<li class="list-group-item"><strong>Jenis Kelamin:</strong> ${person["Jenis Kelamin"]}</li>
+				<li class="list-group-item"><strong>Status:</strong> ${person["Status Pernikahan"]}</li>
+				<li class="list-group-item"><strong>TTL:</strong> ${person["Tempat, Tanggal Lahir"]}</li>
+				<li class="list-group-item"><strong>Pekerjaan:</strong> ${person["Pekerjaan"]}</li>
+				<li class="list-group-item"><strong>Pendidikan:</strong> ${person["Pendidikan Terakhir"]}</li>
+				<li class="list-group-item"><strong>Fisik:</strong> ${person["Tinggi Badan/Berat Badan"]}</li>
+				<li class="list-group-item"><strong>Hobi:</strong> ${person["Hobi"]}</li>
+				<li class="list-group-item bg-light"><strong>Kriteria Idaman:</strong><br> ${person["Mencari Pasangan yang..."]}</li>
+				<li class="list-group-item"><strong>Lokasi:</strong> ${person["Daerah Sambung"]} (${person["Desa Sambung"]} - ${person["Kelompok Sambung"]})</li>
+				<li class="list-group-item">
+					<strong>Kontak Tim PNKB Kelompok:</strong><br>
+					${person["Nama dan No HP Tim PNKB Kelompok"]} 
+					<a href="${waKelompok}" target="_blank" class="btn btn-success btn-sm ms-2"><i class="fab fa-whatsapp"></i> Hubungi</a>
+				</li>
+				<li class="list-group-item">
+					<strong>Kontak Tim PNKB Daerah:</strong><br>
+					${person["Nama dan No HP Tim PNKB Daerah"]}
+					<a href="${waDaerah}" target="_blank" class="btn btn-success btn-sm ms-2"><i class="fab fa-whatsapp"></i> Hubungi</a>
+				</li>
+			`;
+
+			new bootstrap.Modal(document.getElementById('detailModal')).show();
+		}
+
+
+		// ==================================================
+		// 5. LOGIC: SEARCH & FILTER
+		// ==================================================
+		function searchBiodata() {
+			const rawInput = document.getElementById('searchInput').value.toLowerCase();
+			const cleanInput = rawInput.replace(/[^a-z0-9]/g, '');
+
+			const gender = document.getElementById('genderFilter').value;
+			const lokasi = document.getElementById('locationFilter').value;
+			const pendidikan = document.getElementById('educationFilter').value;
+			const yearRange = document.getElementById('yearFilter').value;
+
+			if (typeof biodata === 'undefined') return;
+
+			const pendidikanStandar = [
+				"SD/Sederajat", "SMP/Sederajat", "SMA/Sederajat", "SMK",
+				"D1/D2/D3", "D4", "S1", "S2"
+			];
+
+			filteredData = biodata.filter(p => {
+				// A. Search Text
+				const nama = (p["Nama Inisial"] || "").toLowerCase();
+				const daerah = (p["Daerah Sambung"] || "").toLowerCase();
+				const pekerjaan = (p["Pekerjaan"] || "").toLowerCase();
+				const matchStandard = nama.includes(rawInput) || daerah.includes(rawInput) || pekerjaan.includes(rawInput);
+
+				const kodeWarnaRaw = (p["Kode Warna"] || "").toLowerCase();
+				const kodeWarnaClean = kodeWarnaRaw.replace(/[^a-z0-9]/g, ''); 
+				const matchWarna = (cleanInput !== "" && kodeWarnaClean.includes(cleanInput));
+				
+				const matchSearch = matchStandard || matchWarna;
+
+				// B. Filter Logic (Gender + Token)
+				let matchGender = true;
+				if (typeof userTargetGender !== 'undefined' && userTargetGender !== null && userTargetGender !== "ALL") {
+					// KASUS USER BIASA: Ikuti Token
+					matchGender = p["Jenis Kelamin"] === userTargetGender;
+				} else {
+					// KASUS ADMIN: Ikuti Dropdown
+					matchGender = gender === "all" || p["Jenis Kelamin"] === gender;
+				}
+
+				const matchLocation = lokasi === "all" || p["Daerah Sambung"] === lokasi;
+				
+				let matchEdu = true;
+				if (pendidikan === "others") {
+					matchEdu = !pendidikanStandar.includes(p["Pendidikan Terakhir"]);
+				} else if (pendidikan !== "all") {
+					matchEdu = p["Pendidikan Terakhir"] === pendidikan;
+				}
+
+				let matchYear = true;
+				const birthYear = extractYear(p["Tempat, Tanggal Lahir"]);
+				if (yearRange !== "all") {
+					if (birthYear === 0) {
+						matchYear = false; 
+					} else {
+						const [minY, maxY] = yearRange.split("-").map(Number);
+						matchYear = birthYear >= minY && birthYear <= maxY;
+					}
+				}
+
+				return matchSearch && matchGender && matchLocation && matchEdu && matchYear;
+			});
+
+			currentPage = 1;
+			render();
+		}
+
+		function resetFilter() {
+			document.getElementById('searchInput').value = '';
+			document.getElementById('genderFilter').value = 'all';
+			document.getElementById('locationFilter').value = 'all';
+			document.getElementById('educationFilter').value = 'all';
+			document.getElementById('yearFilter').value = 'all';
+			searchBiodata();
+		}
+
+
+		// ==================================================
+		// 6. LOGIC: PAGINATION
+		// ==================================================
+		function buildPagination() {
+			const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+			const pagination = document.querySelector(".pagination");
+			pagination.innerHTML = "";
+
+			if (totalPages <= 1) return;
+
+			pagination.innerHTML += `<li class="page-item ${currentPage === 1 ? 'disabled' : ''}"><button class="page-link" onclick="changePage(${currentPage - 1})">Previous</button></li>`;
+
+			for (let i = 1; i <= totalPages; i++) {
+				pagination.innerHTML += `<li class="page-item ${i === currentPage ? 'active' : ''}"><button class="page-link" onclick="changePage(${i})">${i}</button></li>`;
+			}
+
+			pagination.innerHTML += `<li class="page-item ${currentPage === totalPages ? 'disabled' : ''}"><button class="page-link" onclick="changePage(${currentPage + 1})">Next</button></li>`;
+		}
+
+		function changePage(page) {
+			if (page < 1) return;
+			currentPage = page;
+			render();
+			const katalog = document.getElementById('katalog');
+			if(katalog) katalog.scrollIntoView({behavior: 'smooth'});
+		}
+
+
+		// ==================================================
+		// 7. LOGIC: ZOOM, SLIDER & DRAG
+		// ==================================================
+		function updateZoom(change) {
+			const slider = document.getElementById('zoomSlider');
+			let newVal = parseFloat(slider.value) + change;
+			if (newVal > slider.max) newVal = slider.max;
+			if (newVal < slider.min) newVal = slider.min;
+			slider.value = newVal;
+			applyTransform(newVal);
+		}
+
+		function applyTransform(zoomVal) {
+			currentZoom = zoomVal;
+			const img = document.getElementById('expandedImg');
+			img.style.transform = `scale(${zoomVal}) translate(${translateX}px, ${translateY}px)`;
+		}
+
+		function closeZoom() {
+			document.getElementById("imageViewer").style.display = "none";
 			document.getElementById('zoomSlider').value = 1;
-            applyZoom(1);
-        }
-       
-        // 4. Update Foto Modal
-        document.getElementById('detailFoto').src = convertDriveLink(person["Foto Diri (Tampak Seluruh Tubuh)"]);
-
-        // 5. Update Isi Modal
-        document.getElementById('detailList').innerHTML = `
-            <li class="list-group-item">
-                <h4 class="text-primary mb-3">${person["Nama Inisial"]}</h4>
-                <span class="badge ${getColorClass(person["Kode Warna"])} mb-2 fs-6">${person["Kode Warna"]}</span>
-            </li>
-            <li class="list-group-item"><strong>Jenis Kelamin:</strong> ${person["Jenis Kelamin"]}</li>
-            <li class="list-group-item"><strong>Status:</strong> ${person["Status Pernikahan"]}</li>
-            <li class="list-group-item"><strong>TTL:</strong> ${person["Tempat, Tanggal Lahir"]}</li>
-            <li class="list-group-item"><strong>Pekerjaan:</strong> ${person["Pekerjaan"]}</li>
-            <li class="list-group-item"><strong>Pendidikan:</strong> ${person["Pendidikan Terakhir"]}</li>
-            <li class="list-group-item"><strong>Fisik:</strong> ${person["Tinggi Badan/Berat Badan"]}</li>
-            <li class="list-group-item"><strong>Hobi:</strong> ${person["Hobi"]}</li>
-            <li class="list-group-item bg-light"><strong>Kriteria Idaman:</strong><br> ${person["Mencari Pasangan yang..."]}</li>
-            <li class="list-group-item"><strong>Sambung:</strong> ${person["Daerah Sambung"]} (${person["Desa Sambung"]} - ${person["Kelompok Sambung"]})</li>
-            <li class="list-group-item">
-                <strong>Kontak Tim PNKB Kelompok:</strong><br>
-                ${person["Nama dan No HP Tim PNKB Kelompok"]} 
-            </li>
-            <li class="list-group-item">
-                <strong>Kontak Tim PNKB Daerah:</strong><br>
-                ${person["Nama dan No HP Tim PNKB Daerah"]}
-            </li>
-        `;
-
-        new bootstrap.Modal(document.getElementById('detailModal')).show();
-    }
-
-    // ----------------------------------
-    // PAGINATION
-    // ----------------------------------
-    function buildPagination() {
-        const totalPages = Math.ceil(filteredData.length / itemsPerPage);
-        const pagination = document.querySelector(".pagination");
-        pagination.innerHTML = "";
-
-        if (totalPages <= 1) return;
-
-        pagination.innerHTML += `
-            <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
-                <button class="page-link" onclick="changePage(${currentPage - 1})">Previous</button>
-            </li>
-        `;
-
-        for (let i = 1; i <= totalPages; i++) {
-            pagination.innerHTML += `
-                <li class="page-item ${i === currentPage ? 'active' : ''}">
-                    <button class="page-link" onclick="changePage(${i})">${i}</button>
-                </li>
-            `;
-        }
-
-        pagination.innerHTML += `
-            <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
-                <button class="page-link" onclick="changePage(${currentPage + 1})">Next</button>
-            </li>
-        `;
-    }
-
-    function changePage(page) {
-        if (page < 1) return;
-        currentPage = page;
-        render();
-        const katalog = document.getElementById('katalog');
-        if(katalog) katalog.scrollIntoView({behavior: 'smooth'});
-    }
-
-    // ----------------------------------
-    // SEARCH + FILTER (UPDATED)
-    // ----------------------------------
-    function searchBiodata() {
-        // 1. Ambil input mentah
-        const rawInput = document.getElementById('searchInput').value.toLowerCase();
-        
-        // 2. Buat versi "BERSIH" untuk pencarian kode warna
-        // Regex /[^a-z0-9]/g artinya: Hapus apa pun yang BUKAN huruf (a-z) atau angka (0-9)
-        // Jadi "Kuning-1", "Kuning 1", "Kuning_1" semua menjadi "kuning1"
-        const cleanInput = rawInput.replace(/[^a-z0-9]/g, '');
-
-        const gender = document.getElementById('genderFilter').value;
-        const lokasi = document.getElementById('locationFilter').value;
-        const pendidikan = document.getElementById('educationFilter').value;
-        const yearRange = document.getElementById('yearFilter').value;
-
-        if (typeof biodata === 'undefined') return;
-
-        const pendidikanStandar = [
-            "SD/Sederajat", "SMP/Sederajat", "SMA/Sederajat", "SMK",
-            "D1/D2/D3", "D4", "S1", "S2"
-        ];
-
-        filteredData = biodata.filter(p => {
-            // --- A. LOGIKA PENCARIAN TEXT ---
-            
-            // A1. Pencarian Standar (Nama, Daerah, Pekerjaan)
-            // Tetap gunakan rawInput agar spasi di nama orang tetap berpengaruh (misal "Siti A" beda dengan "Sitia")
-            const nama = (p["Nama Inisial"] || "").toLowerCase();
-            const daerah = (p["Daerah Sambung"] || "").toLowerCase();
-            const pekerjaan = (p["Pekerjaan"] || "").toLowerCase();
-            
-            const matchStandard = nama.includes(rawInput) || 
-                                  daerah.includes(rawInput) || 
-                                  pekerjaan.includes(rawInput);
-
-            // A2. Pencarian Spesial Kode Warna (Smart Search)
-            const kodeWarnaRaw = (p["Kode Warna"] || "").toLowerCase();
-            // Bersihkan data kode warna juga (Merah-1 menjadi merah1)
-            const kodeWarnaClean = kodeWarnaRaw.replace(/[^a-z0-9]/g, ''); 
-            
-            // Cek kecocokan (Hanya jika cleanInput tidak kosong)
-            const matchWarna = (cleanInput !== "" && kodeWarnaClean.includes(cleanInput));
-
-            // Gabungkan: Cocok jika (Standard OK) ATAU (Warna OK)
-            const matchSearch = matchStandard || matchWarna;
+			currentZoom = 1;
+			translateX = 0;
+			translateY = 0;
+			applyTransform(1);
+		}
 
 
-            // --- B. LOGIKA FILTER DROPDOWN ---
+		// ==================================================
+		// 8. INITIALIZATION (EVENT LISTENERS)
+		// ==================================================
+		document.addEventListener("DOMContentLoaded", () => {
+			// A. Kunci Scroll (Login Gate)
+			document.body.classList.add('locked');
 
-            const matchGender = gender === "all" || p["Jenis Kelamin"] === gender;
-            const matchLocation = lokasi === "all" || p["Daerah Sambung"] === lokasi;
-            
-            let matchEdu = true;
-            if (pendidikan === "others") {
-                matchEdu = !pendidikanStandar.includes(p["Pendidikan Terakhir"]);
-            } else if (pendidikan !== "all") {
-                matchEdu = p["Pendidikan Terakhir"] === pendidikan;
-            }
+			// B. Load & Shuffle Data
+			if (typeof biodata !== 'undefined') {
+				shuffleArray(biodata);
+				document.getElementById("totalBiodata").textContent = biodata.length;
+				document.getElementById("totalBiodata2").textContent = biodata.length;
+				render();
+			} else {
+				console.error("File biodata.js belum dimuat!");
+			}
 
-            let matchYear = true;
-            const birthYear = extractYear(p["Tempat, Tanggal Lahir"]);
-            if (yearRange !== "all") {
-                if (birthYear === 0) {
-                    matchYear = false; 
-                } else {
-                    const [minY, maxY] = yearRange.split("-").map(Number);
-                    matchYear = birthYear >= minY && birthYear <= maxY;
-                }
-            }
+			// C. Filter Events
+			document.getElementById('genderFilter').addEventListener("change", searchBiodata);
+			document.getElementById('locationFilter').addEventListener("change", searchBiodata);
+			document.getElementById('educationFilter').addEventListener("change", searchBiodata);
+			document.getElementById('yearFilter').addEventListener("change", searchBiodata); 
+			document.getElementById("searchInput").addEventListener("keyup", searchBiodata);
+			document.getElementById("itemsPerPage").addEventListener("change", function() {
+				itemsPerPage = parseInt(this.value);
+				currentPage = 1;
+				render();
+			});
 
-            return matchSearch && matchGender && matchLocation && matchEdu && matchYear;
-        });
+			// D. Zoom & Drag Events
+			const slider = document.getElementById('zoomSlider');
+			const viewer = document.getElementById('imageViewer');
+			const img = document.getElementById('expandedImg');
 
-        currentPage = 1;
-        render();
-    }
+			slider.addEventListener('input', function() { applyTransform(this.value); });
 
-    function resetFilter() {
-        document.getElementById('searchInput').value = '';
-        document.getElementById('genderFilter').value = 'all';
-        document.getElementById('locationFilter').value = 'all';
-        document.getElementById('educationFilter').value = 'all';
-        document.getElementById('yearFilter').value = 'all';
-        searchBiodata();
-    }
+			viewer.addEventListener('wheel', function(e) {
+				e.preventDefault();
+				let change = e.deltaY > 0 ? -0.1 : 0.1;
+				updateZoom(change);
+			});
 
-    // ----------------------------------
-    // INIT
-    // ----------------------------------
-    document.addEventListener("DOMContentLoaded", () => {
-        if (typeof biodata !== 'undefined') {
-			shuffleArray(biodata);
-            document.getElementById("totalBiodata").textContent = biodata.length;
-            document.getElementById("totalBiodata2").textContent = biodata.length;
-            render();
-        } else {
-            console.error("File biodata.js belum dimuat!");
-        }
+			viewer.addEventListener('click', function(e) {
+				if (e.target === viewer) closeZoom();
+			});
 
-        document.getElementById('genderFilter').addEventListener("change", searchBiodata);
-        document.getElementById('locationFilter').addEventListener("change", searchBiodata);
-        document.getElementById('educationFilter').addEventListener("change", searchBiodata);
-        document.getElementById('yearFilter').addEventListener("change", searchBiodata); 
+			// Dragging Logic
+			img.addEventListener('mousedown', function(e) {
+				if (currentZoom <= 1) return; 
+				isDragging = true;
+				startX = e.clientX - translateX;
+				startY = e.clientY - translateY;
+				img.style.transition = 'none'; 
+			});
 
-        document.getElementById("searchInput").addEventListener("keyup", e => {
-            searchBiodata();
-        });
+			window.addEventListener('mousemove', function(e) {
+				if (!isDragging) return;
+				translateX = e.clientX - startX;
+				translateY = e.clientY - startY;
+				applyTransform(currentZoom);
+			});
 
-        document.getElementById("itemsPerPage").addEventListener("change", function() {
-            itemsPerPage = parseInt(this.value);
-            currentPage = 1;
-            render();
-        });
-    });
+			window.addEventListener('mouseup', function() {
+				if (isDragging) {
+					isDragging = false;
+					img.style.transition = 'transform 0.1s ease-out'; 
+				}
+			});
+		});
+	</script>
 	
-	// ----------------------------------
-    // LOGIKA ZOOM & SLIDER
-    // ----------------------------------
-    let currentZoom = 1;
-
-    // Fungsi update zoom (dipanggil tombol + / -)
-    function updateZoom(change) {
-        const slider = document.getElementById('zoomSlider');
-        let newVal = parseFloat(slider.value) + change;
-        
-        // Batasi min/max sesuai atribut slider
-        if (newVal > slider.max) newVal = slider.max;
-        if (newVal < slider.min) newVal = slider.min;
-
-        slider.value = newVal;
-        applyZoom(newVal);
-    }
-
-    // Fungsi menerapkan zoom ke gambar
-    function applyZoom(val) {
-        currentZoom = val;
-        const img = document.getElementById('expandedImg');
-        img.style.transform = `scale(${val})`;
-    }
-
-    // Fungsi Menutup Zoom
-    function closeZoom() {
-        document.getElementById("imageViewer").style.display = "none";
-        // Reset zoom saat ditutup biar pas dibuka lagi normal
-        document.getElementById('zoomSlider').value = 1;
-        applyZoom(1);
-    }
-
-    // Event Listener saat halaman siap
-    document.addEventListener("DOMContentLoaded", () => {
-        const slider = document.getElementById('zoomSlider');
-        const viewer = document.getElementById('imageViewer');
-        const img = document.getElementById('expandedImg');
-
-        // 1. Logic Slider Digeser
-        slider.addEventListener('input', function() {
-            applyZoom(this.value);
-        });
-
-        // 2. Logic Scroll Mouse (Wheel)
-        viewer.addEventListener('wheel', function(e) {
-            e.preventDefault(); // Matikan scroll halaman
-            let change = e.deltaY > 0 ? -0.1 : 0.1; // Scroll bawah = zoom out, atas = zoom in
-            updateZoom(change);
-        });
-
-        // 3. Logic Klik Background untuk Tutup
-        viewer.addEventListener('click', function(e) {
-            // Hanya tutup jika yang diklik adalah background hitam
-            // (Bukan gambar, dan bukan slider/tombol)
-            if (e.target === viewer) {
-                closeZoom();
-            }
-        });
-        
-        // Mencegah klik pada gambar menutup zoom (biar user bisa drag/lihat2)
-        img.addEventListener('click', function(e) {
-            e.stopPropagation(); 
-        });
-    });
-</script>
+	
 </body>
 </html>
