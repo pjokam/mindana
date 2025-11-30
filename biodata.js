@@ -20,9 +20,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1YKEbs2zhVOPArPqYfQTOfrnaXkqXE70w",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 13,
-  "No Urut": "Merah-13"
+  "Kode Warna": "Merah-13"
  },
  {
   "Timestamp": "11/27/2025 16:34:56",
@@ -42,9 +42,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=197fbL2IRL9EJ08crAF7jrgiOehNssuUO",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 4,
-  "No Urut": "Merah-4"
+  "Kode Warna": "Merah-4"
  },
  {
   "Timestamp": "11/14/2025 20:49:13",
@@ -64,9 +64,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085721683647",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1qUMAyHcGxEKG3gvInGvxwYSqtohEyzwr",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 24,
-  "No Urut": "Merah-24"
+  "Kode Warna": "Merah-24"
  },
  {
   "Timestamp": "11/11/2025 7:53:53",
@@ -86,9 +86,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1SU-X3aWCSvuklnM-gL84cn2Jdm13li2z",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 18,
-  "No Urut": "Merah-18"
+  "Kode Warna": "Merah-18"
  },
  {
   "Timestamp": "11/13/2025 7:37:47",
@@ -108,9 +108,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1n1AgN_6oM2JDF46Z0c0q69dcXcfThldT",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 3,
-  "No Urut": "Merah-3"
+  "Kode Warna": "Merah-3"
  },
  {
   "Timestamp": "11/27/2025 16:38:52",
@@ -130,10 +130,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1yfPp_0ZDXhj9Uwv-bIFsz6ounT1B603t",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 1,
   "haid?": 1,
-  "No Urut": "Merah-1"
+  "Kode Warna": "Merah-1"
  },
  {
   "Timestamp": "11/11/2025 7:44:32",
@@ -153,9 +153,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1rCMO6OzEPGI0NeBiTPNRJXeM7xOpy94H",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 17,
-  "No Urut": "Merah-17"
+  "Kode Warna": "Merah-17"
  },
  {
   "Timestamp": "11/13/2025 7:43:41",
@@ -175,9 +175,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1V8u6mtwrwcA839rffbr3IdJMOM8xOyPj",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 5,
-  "No Urut": "Merah-5"
+  "Kode Warna": "Merah-5"
  },
  {
   "Timestamp": "11/13/2025 7:46:22",
@@ -197,9 +197,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=188lIe08HBpVjB5Y8UE8gIDKO4l-Z5LKT",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 2,
-  "No Urut": "Merah-2"
+  "Kode Warna": "Merah-2"
  },
  {
   "Timestamp": "11/18/2025 5:17:05",
@@ -219,9 +219,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085721683647",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=10ybEULtSSlC1fJxyXvfA_tcw-m9dRhXL",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 7,
-  "No Urut": "Merah-7"
+  "Kode Warna": "Merah-7"
  },
  {
   "Timestamp": "11/12/2025 5:11:23",
@@ -241,9 +241,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085290366903",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1xKqc19SfTqqVtxq-Bnh7rqbiXd1yREs7",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 6,
-  "No Urut": "Merah-6"
+  "Kode Warna": "Merah-6"
  },
  {
   "Timestamp": "11/11/2025 7:48:46",
@@ -263,9 +263,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=13Wxo_fKJjOzqj1aYlrnVY-1NsVTllLfM",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 19,
-  "No Urut": "Merah-19"
+  "Kode Warna": "Merah-19"
  },
  {
   "Timestamp": "11/5/2025 8:07:20",
@@ -285,9 +285,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Mardiyanto/082391038122",
   "Nama dan No HP Tim PNKB Daerah": "Mardiyanto/082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1s84YkXeNNWSVi-MvWfn7tcjshSTfDvCD",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 20,
-  "No Urut": "Merah-20"
+  "Kode Warna": "Merah-20"
  },
  {
   "Timestamp": "11/20/2025 5:27:38",
@@ -307,8 +307,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085721683647",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1JsWfeS8UKZUDT2cdCIRk0PdkE-SG1HGb",
-  "Kode Warna": "Merah",
-  "No Urut": "Merah-"
+  "Column 2": "Merah",
+  "Kode Warna": "Merah-"
  },
  {
   "Timestamp": "11/13/2025 17:11:01",
@@ -328,8 +328,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1CdHSJSiy0e6ftqx8OUe0QddVrJ_S3-uk",
-  "Kode Warna": "Ungu",
-  "No Urut": "Ungu-"
+  "Column 2": "Ungu",
+  "Kode Warna": "Ungu-"
  },
  {
   "Timestamp": "11/13/2025 17:00:20",
@@ -349,9 +349,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1_uvjdDVbOp7eiH14ad2Do4U73XJsmmp3",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 2,
-  "No Urut": "Ungu-2"
+  "Kode Warna": "Ungu-2"
  },
  {
   "Timestamp": "11/13/2025 16:57:01",
@@ -371,9 +371,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1D7VBSIvym1XHXEt246acZkibKQQZUKM8",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 3,
-  "No Urut": "Ungu-3"
+  "Kode Warna": "Ungu-3"
  },
  {
   "Timestamp": "11/13/2025 17:16:47",
@@ -393,9 +393,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1HsdgOlnuofxMx4je7c2kSd6L12dDuq5E",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 10,
-  "No Urut": "Ungu-10"
+  "Kode Warna": "Ungu-10"
  },
  {
   "Timestamp": "11/13/2025 16:50:46",
@@ -415,9 +415,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1rKW_1gC1hgjCc3oDH14eehQUIZCKycvs",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 11,
-  "No Urut": "Ungu-11"
+  "Kode Warna": "Ungu-11"
  },
  {
   "Timestamp": "11/13/2025 17:04:43",
@@ -437,9 +437,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1dd4edR_iWprLHm2717bxiCRsnLKVPX_i",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 5,
-  "No Urut": "Ungu-5"
+  "Kode Warna": "Ungu-5"
  },
  {
   "Timestamp": "11/13/2025 16:53:21",
@@ -459,9 +459,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1we1eMAx01b-ehTtyHwOKR7AXi0useewX",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 1,
-  "No Urut": "Ungu-1"
+  "Kode Warna": "Ungu-1"
  },
  {
   "Timestamp": "11/13/2025 17:02:20",
@@ -481,8 +481,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1CmsEKd2MqckOLQMIiLRFIIjGpgGJ0YmF",
-  "Kode Warna": "Ungu",
-  "No Urut": "Ungu-"
+  "Column 2": "Ungu",
+  "Kode Warna": "Ungu-"
  },
  {
   "Timestamp": "11/13/2025 16:48:12",
@@ -502,9 +502,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1KBMRJ_MEstSrbWoDKXOt1Rk6PjmO6EhW",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 13,
-  "No Urut": "Ungu-13"
+  "Kode Warna": "Ungu-13"
  },
  {
   "Timestamp": "11/13/2025 17:12:39",
@@ -524,14 +524,14 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1x6hbUBrX3ewlPNpMFXO7MxzMJWv47uAF",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 6,
-  "No Urut": "Ungu-6"
+  "Kode Warna": "Ungu-6"
  },
  {
   "Timestamp": "11/13/2025 16:41:35",
   "Nama Lengkap": "LUTHFI ANNAJIB",
-  "Nama Inisial": "LUTHFI",
+  "Nama Inisial": "LUTHFI(SOLD OUT)",
   "Jenis Kelamin": "Laki-Laki",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "DEMAK, 23 APRIL 1999",
@@ -546,9 +546,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Qd7IxYD-B09DkV_5S1cYVXQnX64Wmpk5",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 12,
-  "No Urut": "Ungu-12"
+  "Kode Warna": "Ungu-12"
  },
  {
   "Timestamp": "11/13/2025 18:23:06",
@@ -568,9 +568,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1rWTyHIVJmmzFGyyYPZnutJdgC_p_FkD6",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 8,
-  "No Urut": "Ungu-8"
+  "Kode Warna": "Ungu-8"
  },
  {
   "Timestamp": "11/13/2025 17:14:55",
@@ -590,9 +590,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1MLjc-fNhuqZp74yg87CC-sjI0dVEWRpQ",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 4,
-  "No Urut": "Ungu-4"
+  "Kode Warna": "Ungu-4"
  },
  {
   "Timestamp": "11/13/2025 17:08:55",
@@ -612,9 +612,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1PKvXLPBIv9cCXwTvTa21wL9q5CmlTjCZ",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 7,
-  "No Urut": "Ungu-7"
+  "Kode Warna": "Ungu-7"
  },
  {
   "Timestamp": "11/13/2025 18:20:37",
@@ -634,8 +634,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1t90p-FZIeQSiQqoOBDFYJ0lt6ghRnvGV",
-  "Kode Warna": "Ungu",
-  "No Urut": "Ungu-"
+  "Column 2": "Ungu",
+  "Kode Warna": "Ungu-"
  },
  {
   "Timestamp": "11/13/2025 17:07:00",
@@ -655,14 +655,14 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1PZcvupclFv83swD4OwlNPwTSxT8f38Uu",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 9,
-  "No Urut": "Ungu-9"
+  "Kode Warna": "Ungu-9"
  },
  {
   "Timestamp": "11/4/2025 19:51:01",
   "Nama Lengkap": "Aji Bambang sumantri",
-  "Nama Inisial": "Aji",
+  "Nama Inisial": "Aji (SOLD OUT)",
   "Jenis Kelamin": "Laki-Laki",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "Grobogan 6 Januari 1995",
@@ -677,9 +677,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082138228241",
   "Nama dan No HP Tim PNKB Daerah": "082138228241",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1zPeSoI7BbarqEkdLkT11eiep9yZPK2Fw",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 72,
-  "No Urut": "Abu-abu-72"
+  "Kode Warna": "Abu-abu-72"
  },
  {
   "Timestamp": "11/29/2025 22:04:28",
@@ -699,8 +699,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "081315113054",
   "Nama dan No HP Tim PNKB Daerah": "081575566675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1neP2UsAkHDz4YGAfWm_vY-gEnMIIulKd",
-  "Kode Warna": "Abu-abu",
-  "No Urut": "Abu-abu-"
+  "Column 2": "Abu-abu",
+  "Kode Warna": "Abu-abu-"
  },
  {
   "Timestamp": "11/29/2025 22:00:21",
@@ -720,9 +720,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Arif mustofa 082242852781",
   "Nama dan No HP Tim PNKB Daerah": "Pak didik 081575566675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=19vGmkMzqDWFP00bxYEvS6AgVWk-iM_c5",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 6,
-  "No Urut": "Abu-abu-6"
+  "Kode Warna": "Abu-abu-6"
  },
  {
   "Timestamp": "11/25/2025 12:51:31",
@@ -742,9 +742,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Aan kunaifi,081315113054",
   "Nama dan No HP Tim PNKB Daerah": "Didik Nurhadi,081575566675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1_9itaSudqg2PWNBL85Iy_4iVXoPzFRii",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 5,
-  "No Urut": "Abu-abu-5"
+  "Kode Warna": "Abu-abu-5"
  },
  {
   "Timestamp": "11/5/2025 10:35:16",
@@ -764,14 +764,14 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bapak Wawan Arif Muhtadi 088221102090",
   "Nama dan No HP Tim PNKB Daerah": "Bapak Didik 081575566675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1NnvvtfIrukgoQD0LZ-9wERoziPXHZ7-n",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "haid?": 3,
-  "No Urut": "Abu-abu-"
+  "Kode Warna": "Abu-abu-"
  },
  {
   "Timestamp": "10/25/2025 15:49:37",
   "Nama Lengkap": "Yusuf Jordan El Anwar",
-  "Nama Inisial": "Joy/Jordan",
+  "Nama Inisial": "Joy/Jordan (SOLD OUT)",
   "Jenis Kelamin": "Laki-Laki",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "Grobogan",
@@ -786,9 +786,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sularno",
   "Nama dan No HP Tim PNKB Daerah": 6285647931820,
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1iDoDs81jWmdleWkuavgIoWXcOgzX0kLf",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "haid?": 2,
-  "No Urut": "Abu-abu-"
+  "Kode Warna": "Abu-abu-"
  },
  {
   "Timestamp": "11/18/2025 18:06:51",
@@ -808,9 +808,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "BP sugeng",
   "Nama dan No HP Tim PNKB Daerah": "BP latif",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1jvpdkhXl-xBzpm10RRNDW-fqN8_RWLti",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 3,
-  "No Urut": "Pink-3"
+  "Kode Warna": "Pink-3"
  },
  {
   "Timestamp": "11/12/2025 16:51:19",
@@ -830,13 +830,13 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Yusup fatan",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1uDDG-Ug49rTFlT2RNLC43YJqvgfcG5Wc",
-  "Kode Warna": "Pink",
-  "No Urut": "Pink-"
+  "Column 2": "Pink",
+  "Kode Warna": "Pink-"
  },
  {
   "Timestamp": "11/22/2025 12:17:27",
   "Nama Lengkap": "Ilham Husni Wibowo ",
-  "Nama Inisial": "Ilham",
+  "Nama Inisial": "Ilham (SOLD OUT)",
   "Jenis Kelamin": "Laki-Laki",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "Sragen 24 Agustus 1998",
@@ -851,14 +851,14 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "BP yono",
   "Nama dan No HP Tim PNKB Daerah": "Pak Nasrun",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1sMA3wW2zoDprrzReibAqBCiAj-tTA-Qg",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 6,
-  "No Urut": "Pink-6"
+  "Kode Warna": "Pink-6"
  },
  {
   "Timestamp": "11/22/2025 12:19:58",
   "Nama Lengkap": "Ilham wafdurroyan",
-  "Nama Inisial": "Royan",
+  "Nama Inisial": "Royan (SOLD OUT)",
   "Jenis Kelamin": "Laki-Laki",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "Jepara 02 September 1997",
@@ -873,9 +873,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Yono",
   "Nama dan No HP Tim PNKB Daerah": "Nasrun",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=187qmJGPFUrtN6-C1yV2i_BZmztCz_vNa",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 5,
-  "No Urut": "Pink-5"
+  "Kode Warna": "Pink-5"
  },
  {
   "Timestamp": "11/12/2025 15:53:48",
@@ -895,8 +895,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak nasron",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1vn-BdlPlwsagg09Rhxxh-SBsKUlrUX4C",
-  "Kode Warna": "Pink",
-  "No Urut": "Pink-"
+  "Column 2": "Pink",
+  "Kode Warna": "Pink-"
  },
  {
   "Timestamp": "11/18/2025 18:12:11",
@@ -916,9 +916,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "BP sugeng ",
   "Nama dan No HP Tim PNKB Daerah": "BP latif",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1J62HudxGbj4Af31pOI6NCptJQyLUrMHu",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 2,
-  "No Urut": "Pink-2"
+  "Kode Warna": "Pink-2"
  },
  {
   "Timestamp": "11/11/2025 21:41:20",
@@ -938,9 +938,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "08222687562",
   "Nama dan No HP Tim PNKB Daerah": "082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1WlLX2jW-NE_hiNT8on2M94GXZM_nHxoO",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 7,
-  "No Urut": "Pink-7"
+  "Kode Warna": "Pink-7"
  },
  {
   "Timestamp": "11/12/2025 16:40:06",
@@ -960,8 +960,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Yusup Fatan ",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1tt3vb1xlsPG21g0ian4oujvRXLBQO4Gn",
-  "Kode Warna": "Pink",
-  "No Urut": "Pink-"
+  "Column 2": "Pink",
+  "Kode Warna": "Pink-"
  },
  {
   "Timestamp": "11/10/2025 9:21:56",
@@ -981,9 +981,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "O82226687562",
   "Nama dan No HP Tim PNKB Daerah": "082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1JyuFvbbu6XgFEuSZoWOZPt761PsRlKvV",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 8,
-  "No Urut": "Pink-8"
+  "Kode Warna": "Pink-8"
  },
  {
   "Timestamp": "11/18/2025 18:09:49",
@@ -1003,9 +1003,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "BP latif",
   "Nama dan No HP Tim PNKB Daerah": "BP latif",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1-4Sh4TsnH-9jJvpkcBnztIh8kL8FeZTt",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 1,
-  "No Urut": "Pink-1"
+  "Kode Warna": "Pink-1"
  },
  {
   "Timestamp": "11/10/2025 5:10:05",
@@ -1025,9 +1025,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085226165664",
   "Nama dan No HP Tim PNKB Daerah": "085226165664",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1gmNPRDaLq6Zs7JAd_yP9hbQ-dYmkcJtN",
-  "Kode Warna": "Biru",
+  "Column 2": "Biru",
   "Column 1": 2,
-  "No Urut": "Biru-2"
+  "Kode Warna": "Biru-2"
  },
  {
   "Timestamp": "11/10/2025 4:59:31",
@@ -1047,8 +1047,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085226165664",
   "Nama dan No HP Tim PNKB Daerah": "085226165664",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1kK8fNf7Y3LN8GKwrHZxcLI6bsZiVqu_D",
-  "Kode Warna": "Biru",
-  "No Urut": "Biru-"
+  "Column 2": "Biru",
+  "Kode Warna": "Biru-"
  },
  {
   "Timestamp": "11/10/2025 5:33:04",
@@ -1068,8 +1068,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085226165664",
   "Nama dan No HP Tim PNKB Daerah": "085226165664",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=145Wsgl73o1baLpbW3BKs_BVuBCjotXjC",
-  "Kode Warna": "Biru",
-  "No Urut": "Biru-"
+  "Column 2": "Biru",
+  "Kode Warna": "Biru-"
  },
  {
   "Timestamp": "11/10/2025 5:05:22",
@@ -1089,8 +1089,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085226165664",
   "Nama dan No HP Tim PNKB Daerah": "085226165664",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1CqSyd6wjUpfMILgCl8fw-s3T0mOhHDAY",
-  "Kode Warna": "Biru",
-  "No Urut": "Biru-"
+  "Column 2": "Biru",
+  "Kode Warna": "Biru-"
  },
  {
   "Timestamp": "11/10/2025 5:37:28",
@@ -1110,9 +1110,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085226165664",
   "Nama dan No HP Tim PNKB Daerah": "085226165664",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1tfnMFCzDn7bYVAi8X208Y4WoQpsZ3616",
-  "Kode Warna": "Biru",
+  "Column 2": "Biru",
   "Column 1": 1,
-  "No Urut": "Biru-1"
+  "Kode Warna": "Biru-1"
  },
  {
   "Timestamp": "11/7/2025 18:32:43",
@@ -1132,8 +1132,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "ANDHIKA BAYU S / 085290345654",
   "Nama dan No HP Tim PNKB Daerah": "UTOMO / 085200023546",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1r1Ta8NWmB_EHu50VQGSBr03btHFzTs25",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/9/2025 16:13:30",
@@ -1153,9 +1153,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "sjud/ +62 852-6677-4354",
   "Nama dan No HP Tim PNKB Daerah": "Utomo// 085200023546",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1I-nx6p6PRCGxhCwWUFrNexi4r5m1E2Dq",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 8,
-  "No Urut": "Kuning-8"
+  "Kode Warna": "Kuning-8"
  },
  {
   "Timestamp": "11/6/2025 18:37:09",
@@ -1175,14 +1175,14 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Cak Opick / 082135331998",
   "Nama dan No HP Tim PNKB Daerah": "Bpk Royan Wijaya - 082136661818",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1KUgmlSxDUR4VsJgp_zMPYM9BqLViIBDt",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 5,
-  "No Urut": "Kuning-5"
+  "Kode Warna": "Kuning-5"
  },
  {
   "Timestamp": "11/14/2025 18:16:56",
   "Nama Lengkap": "Handika Cahyo Satrio Pamungkas",
-  "Nama Inisial": "Handika",
+  "Nama Inisial": "Handika (SOLD OUT)",
   "Jenis Kelamin": "Laki-Laki",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "Pati, 14 Mei 1999",
@@ -1197,14 +1197,14 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "   Ms Didik anggoro   +62 813-9060-7354",
   "Nama dan No HP Tim PNKB Daerah": "Didik Anggoro +62 813-9060-7354",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=15KXB1y5y881qs9QDuf2q8aSl0xUDdRug",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 7,
-  "No Urut": "Kuning-7"
+  "Kode Warna": "Kuning-7"
  },
  {
   "Timestamp": "11/17/2025 19:10:38",
   "Nama Lengkap": "Hanif Aditya Efendi",
-  "Nama Inisial": "Hanif",
+  "Nama Inisial": "Hanif (SOLD OUT)",
   "Jenis Kelamin": "Laki-Laki",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "16 januari 2000",
@@ -1219,9 +1219,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Cak Opick / 082135331998",
   "Nama dan No HP Tim PNKB Daerah": "Bpk. Royan / 082136661818",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1AHYvSyhSrvMqXVAfyBQ7e3ov3RdjaH2v",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 6,
-  "No Urut": "Kuning-6"
+  "Kode Warna": "Kuning-6"
  },
  {
   "Timestamp": "11/27/2025 12:43:58",
@@ -1241,8 +1241,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Riyanto",
   "Nama dan No HP Tim PNKB Daerah": "Riyanto",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1nnHdgv6rqAqHTn-eJ15zo9hACuI7o-vi",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/28/2025 17:17:36",
@@ -1262,9 +1262,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bp.riyanto",
   "Nama dan No HP Tim PNKB Daerah": "Bp.utomo",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1y8DedCo6fileo3k5L3-63NGfLWxhqhLX",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 3,
-  "No Urut": "Kuning-3"
+  "Kode Warna": "Kuning-3"
  },
  {
   "Timestamp": "11/22/2025 22:46:45",
@@ -1284,9 +1284,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "suwarno",
   "Nama dan No HP Tim PNKB Daerah": "setyo utomo/085200023546",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1838Gc2-vFHtmmoiG1VX1B2iSh_lxAsWF",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 1,
-  "No Urut": "Kuning-1"
+  "Kode Warna": "Kuning-1"
  },
  {
   "Timestamp": "11/7/2025 19:02:11",
@@ -1306,9 +1306,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Ust. Didik Anggoro, 081390607354",
   "Nama dan No HP Tim PNKB Daerah": "Ust. Royyan, 082136661818",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1QZUtukAYh1xfg47V-O8H1pntsw1C4maW",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 4,
-  "No Urut": "Kuning-4"
+  "Kode Warna": "Kuning-4"
  },
  {
   "Timestamp": "11/6/2025 21:11:53",
@@ -1328,9 +1328,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Hartoyo (085225220354)",
   "Nama dan No HP Tim PNKB Daerah": "Setyo Utomo (085200023546)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1KD5o9aS0tNUd1C16EplUvf-Rj4-yc8CX",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 11,
-  "No Urut": "Kuning-11"
+  "Kode Warna": "Kuning-11"
  },
  {
   "Timestamp": "11/27/2025 11:23:46",
@@ -1350,8 +1350,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "+6285266744354",
   "Nama dan No HP Tim PNKB Daerah": "+62 821-3666-1818",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1dZGRouxVjtJqbwsz-VP0ucMU2CsWxcrS",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/29/2025 21:30:58",
@@ -1371,8 +1371,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085266774354",
   "Nama dan No HP Tim PNKB Daerah": "+6282136661818",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1atwnxCMid2HyoCXdSCw8USEpwvt0eCCE",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/7/2025 18:14:10",
@@ -1392,14 +1392,14 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Hartoyo +62 852-2522-0354",
   "Nama dan No HP Tim PNKB Daerah": "Setyo utomo +62 852-0002-3546",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1WNovRvB7Rbd9koyHCqi0zKtKdi7AqQbs",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 9,
-  "No Urut": "Kuning-9"
+  "Kode Warna": "Kuning-9"
  },
  {
   "Timestamp": "11/3/2025 11:57:25",
   "Nama Lengkap": "Syamsudin Dwi sutrisno",
-  "Nama Inisial": "Dwi",
+  "Nama Inisial": "Dwi (SOLD OUT)",
   "Jenis Kelamin": "Laki-Laki",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "Pati,4 mei 1993",
@@ -1414,9 +1414,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bpk jamari 08215252378",
   "Nama dan No HP Tim PNKB Daerah": "Bpk Utomo 08200023546",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1gc4QbQcMmDyw0IB4mItBcyMAXxdIwosb",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 12,
-  "No Urut": "Kuning-12"
+  "Kode Warna": "Kuning-12"
  },
  {
   "Timestamp": "11/22/2025 22:38:32",
@@ -1436,9 +1436,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Suwarno",
   "Nama dan No HP Tim PNKB Daerah": "Setyo utomo/085200023546",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=16twhJ2TVClLxmFf34nrYSt3VHNGs9Yzy",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 2,
-  "No Urut": "Kuning-2"
+  "Kode Warna": "Kuning-2"
  },
  {
   "Timestamp": "11/8/2025 14:21:13",
@@ -1458,8 +1458,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bapak Supardo  +62 856-0832-9921",
   "Nama dan No HP Tim PNKB Daerah": "Bapak Setyo utomo +62 852-0002-3546",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1tqROMiF7uW8jjSqoFyOW6wmj83xURHax",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/28/2025 17:14:29",
@@ -1479,8 +1479,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Cak opick",
   "Nama dan No HP Tim PNKB Daerah": "Bp.utomo",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1GseH4U_pyK-duK4bdSxrjTZCS0mSu6Zo",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/29/2025 18:16:51",
@@ -1500,8 +1500,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "pak marno ‪+62 852‑6768‑1031‬",
   "Nama dan No HP Tim PNKB Daerah": "pak ferry ‪+62 813‑2656‑8124‬",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1M1RLgfR3xjJGrBAuWpPm4LfuyywFDF5h",
-  "Kode Warna": "Hijau",
-  "No Urut": "Hijau-"
+  "Column 2": "Hijau",
+  "Kode Warna": "Hijau-"
  },
  {
   "Timestamp": "11/4/2025 17:48:26",
@@ -1521,9 +1521,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sukarno (+62 812-3829-4354)",
   "Nama dan No HP Tim PNKB Daerah": "Feri (+62 813-2656-8124)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1ohPqM4MhUelbMhwyuZ9IEoiA5q6uWsSt",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 1,
-  "No Urut": "Hijau-1"
+  "Kode Warna": "Hijau-1"
  },
  {
   "Timestamp": "11/21/2025 11:25:04",
@@ -1543,9 +1543,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "+62822-3683-2308",
   "Nama dan No HP Tim PNKB Daerah": "081326568124",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1ENmfuf1w6Ynb33n6WjOyiEFGIWqWsuft",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 3,
-  "No Urut": "Hijau-3"
+  "Kode Warna": "Hijau-3"
  },
  {
   "Timestamp": "11/4/2025 17:54:41",
@@ -1565,9 +1565,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": " Pnkb klp : sukarno (+62 812-3829-4354)",
   "Nama dan No HP Tim PNKB Daerah": "Pnkb daerah : feri (+62 813-2656-8124)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1TdVrTOy789N1Qmjwt_-5Ztrbib_61h6W",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 5,
-  "No Urut": "Hijau-5"
+  "Kode Warna": "Hijau-5"
  },
  {
   "Timestamp": "11/4/2025 17:40:15",
@@ -1587,8 +1587,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Hilal ",
   "Nama dan No HP Tim PNKB Daerah": "Hilal",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1pEycO0u_nNVxtUw-5AsAqfVp2V5VjTbk",
-  "Kode Warna": "Hijau",
-  "No Urut": "Hijau-"
+  "Column 2": "Hijau",
+  "Kode Warna": "Hijau-"
  },
  {
   "Timestamp": "11/27/2025 9:27:34",
@@ -1608,8 +1608,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Feri dan +62 813-2656-8124",
   "Nama dan No HP Tim PNKB Daerah": "SuKarno dan +62 812-3829-4354",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1OROeGF6YY4x-ZHgCfqUQC0UW74lhEhPK",
-  "Kode Warna": "Hijau",
-  "No Urut": "Hijau-"
+  "Column 2": "Hijau",
+  "Kode Warna": "Hijau-"
  },
  {
   "Timestamp": "11/11/2025 22:48:46",
@@ -1629,8 +1629,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Dian +62 853-2625-5212",
   "Nama dan No HP Tim PNKB Daerah": "Pak Dian",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1zfmQXida2EZjsTTDiyB6Uylg7AFbTr8k",
-  "Kode Warna": "Hijau",
-  "No Urut": "Hijau-"
+  "Column 2": "Hijau",
+  "Kode Warna": "Hijau-"
  },
  {
   "Timestamp": "11/4/2025 17:27:49",
@@ -1650,9 +1650,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bapak joko",
   "Nama dan No HP Tim PNKB Daerah": "Bapak feri",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1tyUj0gY5ZtsFx-mXSWNfb7DUC1LYUVJw",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 7,
-  "No Urut": "Hijau-7"
+  "Kode Warna": "Hijau-7"
  },
  {
   "Timestamp": "11/7/2025 8:13:41",
@@ -1672,9 +1672,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Joko 085225411424",
   "Nama dan No HP Tim PNKB Daerah": "Feri 081326568124",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1HIP5it0_bO69SrsnNpeOxkDUVtfDFWWQ",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 2,
-  "No Urut": "Hijau-2"
+  "Kode Warna": "Hijau-2"
  },
  {
   "Timestamp": "11/5/2025 21:42:35",
@@ -1694,9 +1694,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": " Pnkb klp : sukarno (+62 812-3829-4354)",
   "Nama dan No HP Tim PNKB Daerah": "Pnkb daerah : feri (+62 813-2656-8124) ",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1FntmMAXrtDxX5A0HiwhdYHAb9HeCkyv3",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 4,
-  "No Urut": "Hijau-4"
+  "Kode Warna": "Hijau-4"
  },
  {
   "Timestamp": "11/28/2025 18:48:06",
@@ -1716,8 +1716,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bp Marno 085267681031",
   "Nama dan No HP Tim PNKB Daerah": "Bp Fery 081326568124",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=16g1TZmkV6-6J80FK2N_8S9FOQ7k3rd1L",
-  "Kode Warna": "Hijau",
-  "No Urut": "Hijau-"
+  "Column 2": "Hijau",
+  "Kode Warna": "Hijau-"
  },
  {
   "Timestamp": "11/28/2025 21:35:34",
@@ -1737,8 +1737,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bp.sumarno( 085267681031)",
   "Nama dan No HP Tim PNKB Daerah": "BP.fery ( 081326568124 )",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1iruA7-ebT33Ht8CXm2rP7H7drz3NH3LC",
-  "Kode Warna": "Hijau",
-  "No Urut": "Hijau-"
+  "Column 2": "Hijau",
+  "Kode Warna": "Hijau-"
  },
  {
   "Timestamp": "11/4/2025 18:38:14",
@@ -1758,9 +1758,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "joko suroso 085225411424",
   "Nama dan No HP Tim PNKB Daerah": "suparno Nasrullah 085795466049",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=17R4C9HMgrDnpL3_I8YRfWT5l6YSN-Z0t",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 6,
-  "No Urut": "Hijau-6"
+  "Kode Warna": "Hijau-6"
  },
  {
   "Timestamp": "11/27/2025 19:55:19",
@@ -1780,9 +1780,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Abdul Aziz 089601012101",
   "Nama dan No HP Tim PNKB Daerah": "Mari 085842530051",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1KhGbV3nQMEqRDafMbO-q1493DCHFTPub",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 1,
-  "No Urut": "Oranye-1"
+  "Kode Warna": "Oranye-1"
  },
  {
   "Timestamp": "11/27/2025 19:49:21",
@@ -1802,9 +1802,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Susmono 085344799522",
   "Nama dan No HP Tim PNKB Daerah": "Mari 085842530051",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1z5IqebB-Pqmr9oGSF3Fpu1laabsUEEMo",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 2,
-  "No Urut": "Oranye-2"
+  "Kode Warna": "Oranye-2"
  },
  {
   "Timestamp": "11/29/2025 15:42:23",
@@ -1824,8 +1824,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Gandri Aditya/0858-9522-7922",
   "Nama dan No HP Tim PNKB Daerah": "Dhohir",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1JXduBukb8e-Jxgd45DLrDRCNxBcEHNRu",
-  "Kode Warna": "Hitam",
-  "No Urut": "Hitam-"
+  "Column 2": "Hitam",
+  "Kode Warna": "Hitam-"
  },
  {
   "Timestamp": "11/28/2025 21:28:01",
@@ -1845,9 +1845,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Darmito +62 85659665886",
   "Nama dan No HP Tim PNKB Daerah": "Agus +62 852-3580-0356",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1K9XgCvt0Z-J0QkpTCUjaMw6wkF4oVYpT",
-  "Kode Warna": "Hitam",
+  "Column 2": "Hitam",
   "Column 1": 2,
-  "No Urut": "Hitam-2"
+  "Kode Warna": "Hitam-2"
  },
  {
   "Timestamp": "11/28/2025 21:10:59",
@@ -1867,9 +1867,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Kuswanto / 085840259056",
   "Nama dan No HP Tim PNKB Daerah": "Agus susanto / 085235800356",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1MroBjoAJ6hlCT4RgiLkERiHZw9-ijt5Z",
-  "Kode Warna": "Hitam",
+  "Column 2": "Hitam",
   "Column 1": 1,
-  "No Urut": "Hitam-1"
+  "Kode Warna": "Hitam-1"
  },
  {
   "Timestamp": "11/25/2025 9:27:57",
@@ -1889,9 +1889,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=14iL1ZKAJIhPgKRhhxJo-75BQs14nzsml",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 57,
-  "No Urut": "Merah-57"
+  "Kode Warna": "Merah-57"
  },
  {
   "Timestamp": "11/10/2025 15:00:11",
@@ -1911,10 +1911,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1ZjDkxQExcqGEqHPrG_hwiKyvYlOLEbyw",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 43,
   "haid?": "iya",
-  "No Urut": "Merah-43"
+  "Kode Warna": "Merah-43"
  },
  {
   "Timestamp": "11/5/2025 8:34:49",
@@ -1934,8 +1934,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "+62 881-2713-353",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1nGr54AiUV7ZsFn2feCL3thcPBymgUx1u",
-  "Kode Warna": "Merah",
-  "No Urut": "Merah-"
+  "Column 2": "Merah",
+  "Kode Warna": "Merah-"
  },
  {
   "Timestamp": "11/10/2025 14:55:20",
@@ -1955,8 +1955,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1cJLIUa1F8gulgn6dxtWPp-fYLxdW1ViH",
-  "Kode Warna": "Merah",
-  "No Urut": "Merah-"
+  "Column 2": "Merah",
+  "Kode Warna": "Merah-"
  },
  {
   "Timestamp": "11/12/2025 10:13:30",
@@ -1976,8 +1976,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1V4lAA4mrd_nzLbVQ3UrEr_0KHGy4zVxe",
-  "Kode Warna": "Merah",
-  "No Urut": "Merah-"
+  "Column 2": "Merah",
+  "Kode Warna": "Merah-"
  },
  {
   "Timestamp": "11/30/2025 0:08:03",
@@ -1997,9 +1997,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sucipto",
   "Nama dan No HP Tim PNKB Daerah": "Mardiyanto",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1uWcDjiOLTQNBN_mW144cusG9Vr16rLwc",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 45,
-  "No Urut": "Merah-45"
+  "Kode Warna": "Merah-45"
  },
  {
   "Timestamp": "11/25/2025 9:35:00",
@@ -2019,9 +2019,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1XliRw_2XuH_M6TsELioDiJN4OylD13XE",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 54,
-  "No Urut": "Merah-54"
+  "Kode Warna": "Merah-54"
  },
  {
   "Timestamp": "11/11/2025 7:59:21",
@@ -2041,9 +2041,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=161weT1iKtANXOPxTBRzVcJvlL05KnXEW",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 58,
-  "No Urut": "Merah-58"
+  "Kode Warna": "Merah-58"
  },
  {
   "Timestamp": "11/5/2025 8:22:43",
@@ -2063,9 +2063,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "+62 812-2562-7240",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1D0opNCHGG_vcJQPobAh_1xHeLMnWeu2u",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 48,
-  "No Urut": "Merah-48"
+  "Kode Warna": "Merah-48"
  },
  {
   "Timestamp": "11/21/2025 18:15:08",
@@ -2085,10 +2085,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=16qmBIasSAf0VqkI4-9nDgR6H-2uhQBc-",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 78,
   "haid?": "iya",
-  "No Urut": "Merah-78"
+  "Kode Warna": "Merah-78"
  },
  {
   "Timestamp": "11/25/2025 9:21:20",
@@ -2108,9 +2108,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1k-5CfWb_K_1mRaOk77MabFlF9iuIWtEX",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 73,
-  "No Urut": "Merah-73"
+  "Kode Warna": "Merah-73"
  },
  {
   "Timestamp": "11/5/2025 8:04:06",
@@ -2130,9 +2130,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sumardi(083872061666)",
   "Nama dan No HP Tim PNKB Daerah": "Mardiyanto/082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1nu6NqtJ08UY4eM36utox0sOhnXmrFken",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 50,
-  "No Urut": "Merah-50"
+  "Kode Warna": "Merah-50"
  },
  {
   "Timestamp": "11/7/2025 17:11:27",
@@ -2152,8 +2152,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "+62 812-4058-0682",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=12-VX7dXzLWnCXDic1zne-VQWeebOUTHd",
-  "Kode Warna": "Merah",
-  "No Urut": "Merah-"
+  "Column 2": "Merah",
+  "Kode Warna": "Merah-"
  },
  {
   "Timestamp": "11/4/2025 19:51:08",
@@ -2173,10 +2173,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "081229550349",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=14JMLG8m-PSq6Km0ZTUEFoiqoCBFrVvYe",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 59,
   "haid?": "iya",
-  "No Urut": "Merah-59"
+  "Kode Warna": "Merah-59"
  },
  {
   "Timestamp": "11/30/2025 0:14:31",
@@ -2196,8 +2196,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sunarto",
   "Nama dan No HP Tim PNKB Daerah": "Mardiyanto",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1ea8t_h2Ry_KhM0ozUv3mPg88tYn_y0Su",
-  "Kode Warna": "Merah",
-  "No Urut": "Merah-"
+  "Column 2": "Merah",
+  "Kode Warna": "Merah-"
  },
  {
   "Timestamp": "11/11/2025 19:10:32",
@@ -2217,9 +2217,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=11IRLDOc07HG71mY9cEH2Vbspx55oCqwy",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 60,
-  "No Urut": "Merah-60"
+  "Kode Warna": "Merah-60"
  },
  {
   "Timestamp": "11/5/2025 8:00:51",
@@ -2239,15 +2239,15 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sutarmo/083836667484",
   "Nama dan No HP Tim PNKB Daerah": "Mardiyanto/082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1geBbynLz0yGx7-DyDPv3br6ktPwYzP8v",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 74,
   "haid?": "iya",
-  "No Urut": "Merah-74"
+  "Kode Warna": "Merah-74"
  },
  {
   "Timestamp": "11/15/2025 16:25:13",
   "Nama Lengkap": "Intan hayu ditasari",
-  "Nama Inisial": "Intan",
+  "Nama Inisial": "Intan (SOLD OUT)",
   "Jenis Kelamin": "Perempuan",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "Blora 6 agustus 1999",
@@ -2262,10 +2262,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Hakim 0896-7567-7354",
   "Nama dan No HP Tim PNKB Daerah": "Mardiyanto 0823-9103-8122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1LEhzJj_uUSAkrTeQ1XOqkF6E6MllL-wU",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 68,
   "haid?": "iya",
-  "No Urut": "Merah-68"
+  "Kode Warna": "Merah-68"
  },
  {
   "Timestamp": "11/25/2025 9:24:50",
@@ -2285,9 +2285,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1n4_reYlLZKk7Z6_cjeavJ8hFRHzuYTvt",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 51,
-  "No Urut": "Merah-51"
+  "Kode Warna": "Merah-51"
  },
  {
   "Timestamp": "11/10/2025 5:53:22",
@@ -2307,9 +2307,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "086290366903",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1YGlEYOMXC-EZl75R2LIPYa1hKVr8i1Cv",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 72,
-  "No Urut": "Merah-72"
+  "Kode Warna": "Merah-72"
  },
  {
   "Timestamp": "11/18/2025 5:13:07",
@@ -2329,9 +2329,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1k2H-SldIQkeDhBAZHNJGTTtC1BcbQ6xn",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 55,
-  "No Urut": "Merah-55"
+  "Kode Warna": "Merah-55"
  },
  {
   "Timestamp": "11/10/2025 5:57:57",
@@ -2351,9 +2351,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085290366903",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1bA3VJq5-PcW9LMNHaAtyZVTuXsnfawhJ",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 46,
-  "No Urut": "Merah-46"
+  "Kode Warna": "Merah-46"
  },
  {
   "Timestamp": "11/5/2025 8:09:09",
@@ -2373,13 +2373,13 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "+62 812-2562-7240",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1NKkjjMkWDB_ZrtYqybSCVSX1hECX8S7N",
-  "Kode Warna": "Merah",
-  "No Urut": "Merah-"
+  "Column 2": "Merah",
+  "Kode Warna": "Merah-"
  },
  {
   "Timestamp": "11/4/2025 19:45:50",
   "Nama Lengkap": "Pramesti Adhinugraheni ",
-  "Nama Inisial": "Esti/Pramesti",
+  "Nama Inisial": "Esti/Pramesti (SOLD OUT)",
   "Jenis Kelamin": "Perempuan",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "23 April 2000",
@@ -2394,9 +2394,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Juremi 081225627240",
   "Nama dan No HP Tim PNKB Daerah": "Mardiyanto 082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1FCyRARc-uTPWzNJzjcFWzDKrzmkig_hB",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 47,
-  "No Urut": "Merah-47"
+  "Kode Warna": "Merah-47"
  },
  {
   "Timestamp": "11/14/2025 20:45:45",
@@ -2416,10 +2416,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085721683647",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=17ZSwQEFjrbyINVv7LZLD6K22fXbG38X0",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 41,
   "haid?": "iya",
-  "No Urut": "Merah-41"
+  "Kode Warna": "Merah-41"
  },
  {
   "Timestamp": "11/18/2025 13:41:20",
@@ -2439,9 +2439,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bapak Khakim (089675677354)",
   "Nama dan No HP Tim PNKB Daerah": "Bapak Mardiyanto (082391038122)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1tvSrpEXMc5r-Vx31XTlk73s7rChJPgUA",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 64,
-  "No Urut": "Merah-64"
+  "Kode Warna": "Merah-64"
  },
  {
   "Timestamp": "11/10/2025 14:50:31",
@@ -2461,10 +2461,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1d6yeT2E-fExQI_EA_-hsXgDEn0ZE4Vog",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 42,
   "haid?": "iya",
-  "No Urut": "Merah-42"
+  "Kode Warna": "Merah-42"
  },
  {
   "Timestamp": "11/19/2025 14:08:53",
@@ -2484,9 +2484,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak Khamami (089675677354)",
   "Nama dan No HP Tim PNKB Daerah": "Pak Mardiyanto (082391038122)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Nu_4SPvM_f56MzBgo20hRurtX9QRFaCo",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 71,
-  "No Urut": "Merah-71"
+  "Kode Warna": "Merah-71"
  },
  {
   "Timestamp": "11/5/2025 8:15:32",
@@ -2506,10 +2506,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "+62 812-2562-7240",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1CFGteFQXQOuCX59rbu7BfAhWHPDSpoZ9",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 79,
   "haid?": "iya",
-  "No Urut": "Merah-79",
+  "Kode Warna": "Merah-79",
   "Column23": 9
  },
  {
@@ -2530,9 +2530,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=155QTKYt9cu3t8w_F9DGDDv94R8eMEmM9",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 56,
-  "No Urut": "Merah-56"
+  "Kode Warna": "Merah-56"
  },
  {
   "Timestamp": "11/17/2025 13:26:22",
@@ -2552,9 +2552,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak Khakim 089675677354",
   "Nama dan No HP Tim PNKB Daerah": "Pak Mardiyanto 082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1x_FWdr9rAO7Bgtz9UYzfg_B5ewS2XMXo",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 63,
-  "No Urut": "Merah-63"
+  "Kode Warna": "Merah-63"
  },
  {
   "Timestamp": "11/11/2025 5:06:42",
@@ -2574,9 +2574,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "081210424664",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1HYY_6oIGn4Tj3NxUkXt0hLo4hv2OobNc",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 44,
-  "No Urut": "Merah-44"
+  "Kode Warna": "Merah-44"
  },
  {
   "Timestamp": "11/30/2025 0:12:36",
@@ -2596,9 +2596,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sunarto",
   "Nama dan No HP Tim PNKB Daerah": "Mardiyanto",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1nPKdun-ZUMEIHIUk-PYQ7EpnxPpz46Bz",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 62,
-  "No Urut": "Merah-62"
+  "Kode Warna": "Merah-62"
  },
  {
   "Timestamp": "11/11/2025 19:14:41",
@@ -2618,9 +2618,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "L082391038122",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1NFFQ8OLdNYm1fokuRUqvaqOS-kq9v3dZ",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 75,
-  "No Urut": "Merah-75"
+  "Kode Warna": "Merah-75"
  },
  {
   "Timestamp": "11/11/2025 16:49:51",
@@ -2640,9 +2640,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "081210424664",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1KkON3c7PftAY7pY9sF2sEbgxD7_HtHrI",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 52,
-  "No Urut": "Merah-52"
+  "Kode Warna": "Merah-52"
  },
  {
   "Timestamp": "11/13/2025 18:18:29",
@@ -2662,9 +2662,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1V4ZGVNCi1DY7dJGweHeox4LPmUjIq9wc",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 48,
-  "No Urut": "Ungu-48"
+  "Kode Warna": "Ungu-48"
  },
  {
   "Timestamp": "11/13/2025 17:36:10",
@@ -2684,9 +2684,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1p2sjXOK2ARlcvlhUsmgUjogdzMDBNhz2",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 47,
-  "No Urut": "Ungu-47"
+  "Kode Warna": "Ungu-47"
  },
  {
   "Timestamp": "11/13/2025 18:14:03",
@@ -2706,9 +2706,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1YmikI0p3fdfGvo_D5Nx9rP534kT8exNQ",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 43,
-  "No Urut": "Ungu-43"
+  "Kode Warna": "Ungu-43"
  },
  {
   "Timestamp": "11/13/2025 18:15:53",
@@ -2728,9 +2728,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1AgPOfAyJg9HuJPTtIgfAuAtOFGL6j6hB",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 44,
-  "No Urut": "Ungu-44"
+  "Kode Warna": "Ungu-44"
  },
  {
   "Timestamp": "11/13/2025 17:26:38",
@@ -2750,8 +2750,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=12YpdIpCDr4t8ZJOnjRMw84j4Ldb13M0h",
-  "Kode Warna": "Ungu",
-  "No Urut": "Ungu-"
+  "Column 2": "Ungu",
+  "Kode Warna": "Ungu-"
  },
  {
   "Timestamp": "11/13/2025 17:24:11",
@@ -2771,10 +2771,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1tZSs41mqoSOo9-lP9aWnL0k0FFqjN2sJ",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 54,
   "haid?": "iya",
-  "No Urut": "Ungu-54"
+  "Kode Warna": "Ungu-54"
  },
  {
   "Timestamp": "11/13/2025 17:34:00",
@@ -2794,9 +2794,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1ljL1CSFP0sQBq1vWIK3o8vHieFFRW_Gt",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 42,
-  "No Urut": "Ungu-42"
+  "Kode Warna": "Ungu-42"
  },
  {
   "Timestamp": "11/13/2025 17:31:52",
@@ -2816,9 +2816,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1XKAztJ0mwgfC2LKm9fL4Ze-gFYmrFihk",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 41,
-  "No Urut": "Ungu-41"
+  "Kode Warna": "Ungu-41"
  },
  {
   "Timestamp": "11/13/2025 18:25:06",
@@ -2838,9 +2838,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1xI9R6NToOrI2yy6fzrES7gpjK1hhmTdN",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 49,
-  "No Urut": "Ungu-49"
+  "Kode Warna": "Ungu-49"
  },
  {
   "Timestamp": "11/13/2025 17:29:50",
@@ -2860,10 +2860,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1P9jefoNwEu8H6CSUTnZvywtfL6OVf2TU",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 55,
   "haid?": "iya",
-  "No Urut": "Ungu-55"
+  "Kode Warna": "Ungu-55"
  },
  {
   "Timestamp": "11/13/2025 17:19:17",
@@ -2883,10 +2883,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1XSx2KUU5Z4FuD0L23nbbG_sc-j8mjkt7",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 52,
   "haid?": "iya",
-  "No Urut": "Ungu-52"
+  "Kode Warna": "Ungu-52"
  },
  {
   "Timestamp": "11/13/2025 17:22:05",
@@ -2906,9 +2906,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1___rby-RpnVhULtPehUnA6jP4V0dH08R",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 46,
-  "No Urut": "Ungu-46"
+  "Kode Warna": "Ungu-46"
  },
  {
   "Timestamp": "11/13/2025 17:38:29",
@@ -2928,9 +2928,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "MOH SODIQIN 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=10g-OexJxRFygykXfZaVl5jW_Z8yBflcl",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 45,
-  "No Urut": "Ungu-45"
+  "Kode Warna": "Ungu-45"
  },
  {
   "Timestamp": "11/12/2025 12:10:08",
@@ -2950,9 +2950,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Agus Purnomo 085600114546",
   "Nama dan No HP Tim PNKB Daerah": "Didik Nur Hadi 081575566675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1soQW3wsPD6Oq857wdH-YT72FLVzorIXx",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 45,
-  "No Urut": "Abu-abu-45"
+  "Kode Warna": "Abu-abu-45"
  },
  {
   "Timestamp": "11/8/2025 17:46:40",
@@ -2972,10 +2972,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=11KV1gBuKo8G59z-cQzzn5PJ3AP2dNVLM",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 71,
   "haid?": "iya",
-  "No Urut": "Abu-abu-71"
+  "Kode Warna": "Abu-abu-71"
  },
  {
   "Timestamp": "11/29/2025 23:16:55",
@@ -2995,9 +2995,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "+62 896-3705-9362",
   "Nama dan No HP Tim PNKB Daerah": "+62 896-3705-9362",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1ll-tfe0gAcRxC1JMOQdCK4D_hjzF8dVx",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 53,
-  "No Urut": "Abu-abu-53"
+  "Kode Warna": "Abu-abu-53"
  },
  {
   "Timestamp": "11/12/2025 10:40:16",
@@ -3017,9 +3017,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "0815-7556-6675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1-MBOIDGQ-pP9xv61E5kvZBfiabrV0JfG",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 47,
-  "No Urut": "Abu-abu-47"
+  "Kode Warna": "Abu-abu-47"
  },
  {
   "Timestamp": "11/10/2025 8:14:36",
@@ -3039,14 +3039,14 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "+62 811-2588-354",
   "Nama dan No HP Tim PNKB Daerah": "081575566675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1epzkq3s6ppeUPZJnBga4HGRlL6Tdnxxo",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 74,
-  "No Urut": "Abu-abu-74"
+  "Kode Warna": "Abu-abu-74"
  },
  {
   "Timestamp": "11/29/2025 23:29:30",
   "Nama Lengkap": "Arifiana Novia Nur Aida",
-  "Nama Inisial": "Novia...",
+  "Nama Inisial": "Novia...(SOLD OUT)",
   "Jenis Kelamin": "Perempuan",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "Grobogan,19 Januari 2004",
@@ -3061,10 +3061,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bapak Suwarto, 081910745400",
   "Nama dan No HP Tim PNKB Daerah": "Bapak Didik, 081575566675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Ab9Welfz2Iji4L2RvYqqPwKPDt8faLxN",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 56,
   "haid?": "iya",
-  "No Urut": "Abu-abu-56"
+  "Kode Warna": "Abu-abu-56"
  },
  {
   "Timestamp": "11/11/2025 18:08:46",
@@ -3084,9 +3084,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bp Agus Nomo / 085600114546",
   "Nama dan No HP Tim PNKB Daerah": "Bp Didik / 081575566675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1NEDBDanZnslvmO6t3x98rGuoG71Gt5Pb",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 48,
-  "No Urut": "Abu-abu-48"
+  "Kode Warna": "Abu-abu-48"
  },
  {
   "Timestamp": "11/18/2025 10:53:19",
@@ -3106,8 +3106,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "M Umar Syahid, SE., SH., MH (081225579000)",
   "Nama dan No HP Tim PNKB Daerah": "Didik Nurhadi (081575566675)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1zLAOBjqLC9VrL40hxOKeefSFkOZWn1wD",
-  "Kode Warna": "Abu-abu",
-  "No Urut": "Abu-abu-"
+  "Column 2": "Abu-abu",
+  "Kode Warna": "Abu-abu-"
  },
  {
   "Timestamp": "10/25/2025 12:02:00",
@@ -3127,9 +3127,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "aan kunaifi",
   "Nama dan No HP Tim PNKB Daerah": "‪+62 813‑9013‑3447‬",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Tbtwtt_Jz91OJ-ZHMRWoSmnCfO2Lkp26",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 72,
-  "No Urut": "Abu-abu-72"
+  "Kode Warna": "Abu-abu-72"
  },
  {
   "Timestamp": "11/25/2025 20:57:31",
@@ -3149,9 +3149,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak Suwarto ",
   "Nama dan No HP Tim PNKB Daerah": "Pak Didik",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1zx7JjRUyQcS63E1UzFq9xQDYYa_cr8aL",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 73,
-  "No Urut": "Abu-abu-73"
+  "Kode Warna": "Abu-abu-73"
  },
  {
   "Timestamp": "11/24/2025 9:03:44",
@@ -3171,10 +3171,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1nAUKu1w_uboWzEHlxkAcGN4mYtaVDcXR",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 59,
   "haid?": "iya",
-  "No Urut": "Abu-abu-59"
+  "Kode Warna": "Abu-abu-59"
  },
  {
   "Timestamp": "11/29/2025 21:49:42",
@@ -3194,9 +3194,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "bapak larno 089657065650",
   "Nama dan No HP Tim PNKB Daerah": "bapak didik 081575566675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1uh00X-IQzWdpXs14lDTzAlGVHLD12MxZ",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 43,
-  "No Urut": "Abu-abu-43"
+  "Kode Warna": "Abu-abu-43"
  },
  {
   "Timestamp": "11/18/2025 3:07:09",
@@ -3216,9 +3216,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bapak Agus  dan 0856-0011-4546",
   "Nama dan No HP Tim PNKB Daerah": "Bapak Didik dan 0815-7556-6675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1FVSXSNGLCl7NBqz_M_W9OF_nwy2mD2OG",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 46,
-  "No Urut": "Abu-abu-46"
+  "Kode Warna": "Abu-abu-46"
  },
  {
   "Timestamp": "11/9/2025 17:47:24",
@@ -3238,10 +3238,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bapak budi. +62812-2586-6921",
   "Nama dan No HP Tim PNKB Daerah": "Bapak didik. 0815-7556-6675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1TqT2I8nOPjfdz3ThcouWU8j0PaaHP7oZ",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 57,
   "haid?": "iya",
-  "No Urut": "Abu-abu-57"
+  "Kode Warna": "Abu-abu-57"
  },
  {
   "Timestamp": "11/12/2025 10:14:00",
@@ -3261,9 +3261,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bpk Didik ( +62 815-7556-6675 )",
   "Nama dan No HP Tim PNKB Daerah": "Bpk Didik ( +62 815-7556-6675 )",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1VbIiIVMpFi0ljeLDRD_Ud6LcSVNzGg82",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 52,
-  "No Urut": "Abu-abu-52"
+  "Kode Warna": "Abu-abu-52"
  },
  {
   "Timestamp": "11/16/2025 18:38:39",
@@ -3283,9 +3283,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Mas arip (082243852781) ",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1CdyIN2r4XuWIyxCdqzFI0O0ZxnqNBnRx",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 42,
-  "No Urut": "Abu-abu-42"
+  "Kode Warna": "Abu-abu-42"
  },
  {
   "Timestamp": "11/23/2025 8:27:07",
@@ -3305,9 +3305,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bapak Sularno  +62 856-4793-1820",
   "Nama dan No HP Tim PNKB Daerah": "Bapak didik",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=12YnTLqKBN6BfGQHY8syXGPvbfUAiKy6M",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 78,
-  "No Urut": "Abu-abu-78"
+  "Kode Warna": "Abu-abu-78"
  },
  {
   "Timestamp": "11/25/2025 12:13:47",
@@ -3327,9 +3327,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Mas Aan 081315113054",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Tafa8J_0zIXXAnNSimckWOo08wZUxsRU",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 41,
-  "No Urut": "Abu-abu-41"
+  "Kode Warna": "Abu-abu-41"
  },
  {
   "Timestamp": "11/3/2025 17:32:42",
@@ -3349,9 +3349,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "bp.sularno/no.0856-4793-1820",
   "Nama dan No HP Tim PNKB Daerah": "bp.sularno/no.0856-4793-1820",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1AaIRVv2k9Ji70epf2_Ru1OHS1oI4OqRa",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 44,
-  "No Urut": "Abu-abu-44"
+  "Kode Warna": "Abu-abu-44"
  },
  {
   "Timestamp": "11/8/2025 11:49:47",
@@ -3371,9 +3371,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1oerP5dkYz4zs6nv7L_49B53asLwDay8O",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 54,
-  "No Urut": "Abu-abu-54"
+  "Kode Warna": "Abu-abu-54"
  },
  {
   "Timestamp": "11/27/2025 14:58:50",
@@ -3393,10 +3393,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "+62 813-1511-3054",
   "Nama dan No HP Tim PNKB Daerah": "+62 815-7556-6675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1PAs5NqpiGdJA1FdZ9pOtVCDK2GJqCFbC",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 60,
   "haid?": "iya",
-  "No Urut": "Abu-abu-60"
+  "Kode Warna": "Abu-abu-60"
  },
  {
   "Timestamp": "11/5/2025 14:39:35",
@@ -3416,9 +3416,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "081910745400",
   "Nama dan No HP Tim PNKB Daerah": "081575566675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1A-KM-Glf_FEf5ZEZ0nZoOP2-3UfYTvFI",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 55,
-  "No Urut": "Abu-abu-55"
+  "Kode Warna": "Abu-abu-55"
  },
  {
   "Timestamp": "11/29/2025 23:10:04",
@@ -3438,10 +3438,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "+62 896-3705-9362",
   "Nama dan No HP Tim PNKB Daerah": "+62 896-3705-9362",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1ZVnG_yqQiObAzvoybstKcflYRkwEiGpP",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 58,
   "haid?": "iya",
-  "No Urut": "Abu-abu-58"
+  "Kode Warna": "Abu-abu-58"
  },
  {
   "Timestamp": "11/29/2025 23:14:13",
@@ -3461,9 +3461,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "081315113054",
   "Nama dan No HP Tim PNKB Daerah": "081575566675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1cMh2M_-jozFK-nXWOoG34VLlt2bFL_nI",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 51,
-  "No Urut": "Abu-abu-51"
+  "Kode Warna": "Abu-abu-51"
  },
  {
   "Timestamp": "11/29/2025 23:11:55",
@@ -3483,9 +3483,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Arif dan 082242852781",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Aa3aOECapdk4h7wzqzaevY8MoD45goqe",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 49,
-  "No Urut": "Abu-abu-49"
+  "Kode Warna": "Abu-abu-49"
  },
  {
   "Timestamp": "11/25/2025 18:54:50",
@@ -3505,9 +3505,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Aan Kunaifi 081315113054",
   "Nama dan No HP Tim PNKB Daerah": "Didik Nurhadi 081575566675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1W383hcwgJPPo4LyL9wzsAFMmqN0GW2Hk",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 50,
-  "No Urut": "Abu-abu-50"
+  "Kode Warna": "Abu-abu-50"
  },
  {
   "Timestamp": "11/18/2025 10:54:57",
@@ -3527,13 +3527,13 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "M Umar Syahid, SE., SH., MH (081225579000)",
   "Nama dan No HP Tim PNKB Daerah": "Didik Nurhadi (081575566675)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=12Y5kysyr977y1BB8XKhkPA7pCVwClGMf",
-  "Kode Warna": "Abu-abu",
-  "No Urut": "Abu-abu-"
+  "Column 2": "Abu-abu",
+  "Kode Warna": "Abu-abu-"
  },
  {
   "Timestamp": "11/12/2025 16:42:56",
   "Nama Lengkap": "Agustina Khoirun Nisa ",
-  "Nama Inisial": "Nisa ",
+  "Nama Inisial": "Nisa (SOLD OUT)",
   "Jenis Kelamin": "Perempuan",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "Purworejo 01 -08-2001",
@@ -3548,9 +3548,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Yusup Fatan ",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1QBAZr6UWPBbIKoPNFzQg2oRlbXWAdG7I",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 44,
-  "No Urut": "Pink-44"
+  "Kode Warna": "Pink-44"
  },
  {
   "Timestamp": "11/12/2025 15:37:01",
@@ -3570,10 +3570,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Yusup",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=11fCavUH2yish_3DKXoo3aQxBxA49Kuv5",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 57,
   "haid?": "iya",
-  "No Urut": "Pink-57"
+  "Kode Warna": "Pink-57"
  },
  {
   "Timestamp": "11/12/2025 16:37:09",
@@ -3593,8 +3593,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Yusup fatan",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Qcyou0iyGchagKtZnUXAIuyDt8SEOHfI",
-  "Kode Warna": "Pink",
-  "No Urut": "Pink-"
+  "Column 2": "Pink",
+  "Kode Warna": "Pink-"
  },
  {
   "Timestamp": "11/12/2025 16:04:51",
@@ -3614,8 +3614,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "BP Yusup fatan",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1bx-LBe0mE4yk1zr5Mn9I7Pwg3JrGwHDl",
-  "Kode Warna": "Pink",
-  "No Urut": "Pink-"
+  "Column 2": "Pink",
+  "Kode Warna": "Pink-"
  },
  {
   "Timestamp": "11/13/2025 10:55:16",
@@ -3635,8 +3635,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Yono ",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1g7_nQRuVmtBEVWDnv12nq5PxFx-goADR",
-  "Kode Warna": "Pink",
-  "No Urut": "Pink-"
+  "Column 2": "Pink",
+  "Kode Warna": "Pink-"
  },
  {
   "Timestamp": "11/24/2025 10:10:03",
@@ -3656,9 +3656,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sugeng ",
   "Nama dan No HP Tim PNKB Daerah": "Nasron",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1zFpUcGeT6kC8uL6zLPOCSMpolp4Dg1Vm",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 47,
-  "No Urut": "Pink-47"
+  "Kode Warna": "Pink-47"
  },
  {
   "Timestamp": "11/12/2025 16:45:43",
@@ -3678,8 +3678,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Yusup Fatan ",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=16W74lokkhFQI18-FVF0Xs5ZY-8sCH97r",
-  "Kode Warna": "Pink",
-  "No Urut": "Pink-"
+  "Column 2": "Pink",
+  "Kode Warna": "Pink-"
  },
  {
   "Timestamp": "11/11/2025 21:57:04",
@@ -3699,9 +3699,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Yusup",
   "Nama dan No HP Tim PNKB Daerah": "082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1jGJZ9orRxRghZ5Gznwy8pCFdNRD6R_Ap",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 60,
-  "No Urut": "Pink-60"
+  "Kode Warna": "Pink-60"
  },
  {
   "Timestamp": "11/12/2025 16:16:25",
@@ -3721,8 +3721,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "BP Yusup fatan ",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=18VmhV5oNkz3Bx0JXznl81TbxLz2lK3Kz",
-  "Kode Warna": "Pink",
-  "No Urut": "Pink-"
+  "Column 2": "Pink",
+  "Kode Warna": "Pink-"
  },
  {
   "Timestamp": "11/24/2025 13:16:22",
@@ -3742,9 +3742,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sugeng",
   "Nama dan No HP Tim PNKB Daerah": "Nasron",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1jJnALQeemkpDy26OLKg4bokF5o0YxmsT",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 58,
-  "No Urut": "Pink-58"
+  "Kode Warna": "Pink-58"
  },
  {
   "Timestamp": "11/11/2025 21:51:06",
@@ -3764,9 +3764,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Yusup",
   "Nama dan No HP Tim PNKB Daerah": "082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=10A3Rcv8NEsmVyjr9AWkHnGsJJSjDSsP_",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 45,
-  "No Urut": "Pink-45"
+  "Kode Warna": "Pink-45"
  },
  {
   "Timestamp": "11/12/2025 15:33:45",
@@ -3786,10 +3786,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Yusup",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1zJqCAIF38RPHgaRgjQuiLpKVPSShJMYU",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 56,
   "haid?": "iya",
-  "No Urut": "Pink-56"
+  "Kode Warna": "Pink-56"
  },
  {
   "Timestamp": "11/12/2025 16:12:39",
@@ -3809,8 +3809,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bp Yusup fatan",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Gq3_nfPSXRapfO0CvHPcvpSYrNggjfYx",
-  "Kode Warna": "Pink",
-  "No Urut": "Pink-"
+  "Column 2": "Pink",
+  "Kode Warna": "Pink-"
  },
  {
   "Timestamp": "11/12/2025 15:46:35",
@@ -3830,8 +3830,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "BP yusup",
   "Nama dan No HP Tim PNKB Daerah": "BP Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1UEF-CI3qhUbf_dzTRyNn_ngm91776mzx",
-  "Kode Warna": "Pink",
-  "No Urut": "Pink-"
+  "Column 2": "Pink",
+  "Kode Warna": "Pink-"
  },
  {
   "Timestamp": "11/12/2025 15:40:07",
@@ -3851,8 +3851,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Yusup",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1S_0__eHggyKqM-F5-Ut1dZ0-PHNcqkxS",
-  "Kode Warna": "Pink",
-  "No Urut": "Pink-"
+  "Column 2": "Pink",
+  "Kode Warna": "Pink-"
  },
  {
   "Timestamp": "11/13/2025 10:51:32",
@@ -3872,8 +3872,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Makruf ",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1CLJkj3kndIadg11-YQO07hSX7ErzHluk",
-  "Kode Warna": "Pink",
-  "No Urut": "Pink-"
+  "Column 2": "Pink",
+  "Kode Warna": "Pink-"
  },
  {
   "Timestamp": "11/12/2025 16:01:15",
@@ -3893,9 +3893,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Yusup fatan",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1SVHFfOsyCuCPLtyJKZnBqDfNbOd0-dXM",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 46,
-  "No Urut": "Pink-46"
+  "Kode Warna": "Pink-46"
  },
  {
   "Timestamp": "11/12/2025 15:29:11",
@@ -3915,8 +3915,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Rusdi",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1U3XMd-3JTdPt_3fJWmDjSUpXt9T-NEPg",
-  "Kode Warna": "Pink",
-  "No Urut": "Pink-"
+  "Column 2": "Pink",
+  "Kode Warna": "Pink-"
  },
  {
   "Timestamp": "11/12/2025 16:19:49",
@@ -3936,8 +3936,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "BP Yusuf fatan",
   "Nama dan No HP Tim PNKB Daerah": "Suyanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1XsU8Ym_Kh9P34GXgSjfzuYd7He9A01-_",
-  "Kode Warna": "Pink",
-  "No Urut": "Pink-"
+  "Column 2": "Pink",
+  "Kode Warna": "Pink-"
  },
  {
   "Timestamp": "11/10/2025 5:19:17",
@@ -3957,9 +3957,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085226165664",
   "Nama dan No HP Tim PNKB Daerah": "085226165664",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=13HaH19EYBUGs3fX5aOJs6cHYGkI4VORa",
-  "Kode Warna": "Biru",
+  "Column 2": "Biru",
   "Column 1": 44,
-  "No Urut": "Biru-44"
+  "Kode Warna": "Biru-44"
  },
  {
   "Timestamp": "11/10/2025 5:24:20",
@@ -3979,9 +3979,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085226165664",
   "Nama dan No HP Tim PNKB Daerah": "085226165664",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1qWyJk37xTzWUGehd-zHIRTqE_ch8iZ-M",
-  "Kode Warna": "Biru",
+  "Column 2": "Biru",
   "Column 1": 41,
-  "No Urut": "Biru-41"
+  "Kode Warna": "Biru-41"
  },
  {
   "Timestamp": "11/10/2025 5:28:55",
@@ -4001,9 +4001,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "08225881017",
   "Nama dan No HP Tim PNKB Daerah": "085226165664",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1pyLbHuKI8UyY2crxb_B-9RifNACBnouT",
-  "Kode Warna": "Biru",
+  "Column 2": "Biru",
   "Column 1": 47,
-  "No Urut": "Biru-47"
+  "Kode Warna": "Biru-47"
  },
  {
   "Timestamp": "11/10/2025 5:41:32",
@@ -4023,9 +4023,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085226165664",
   "Nama dan No HP Tim PNKB Daerah": "085226165664",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1rpAiZRONfA_Rpcmh6sjSZ9Sps-qaVXsJ",
-  "Kode Warna": "Biru",
+  "Column 2": "Biru",
   "Column 1": 42,
-  "No Urut": "Biru-42"
+  "Kode Warna": "Biru-42"
  },
  {
   "Timestamp": "11/10/2025 5:15:13",
@@ -4045,9 +4045,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085226165664",
   "Nama dan No HP Tim PNKB Daerah": "085226165664",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=11jsDpLMOVsaD8ZhK8mSryOS3A-puUmi6",
-  "Kode Warna": "Biru",
+  "Column 2": "Biru",
   "Column 1": 43,
-  "No Urut": "Biru-43"
+  "Kode Warna": "Biru-43"
  },
  {
   "Timestamp": "11/7/2025 18:41:11",
@@ -4067,8 +4067,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "ANDHIKA BAYU SAPUTRA/085290345654",
   "Nama dan No HP Tim PNKB Daerah": "UTOMO / 085200023546",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1HtM5fYGlD1HXkRXKNi0JLGv2X-g412wi",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/22/2025 22:54:29",
@@ -4088,9 +4088,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Suwarno",
   "Nama dan No HP Tim PNKB Daerah": "Setyo utomo (085200023546)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1wC9UEDTGeRX9EelqmqBroMwV05Ri3wT6",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 44,
-  "No Urut": "Kuning-44"
+  "Kode Warna": "Kuning-44"
  },
  {
   "Timestamp": "11/8/2025 21:25:42",
@@ -4110,9 +4110,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "sjud //+62 852-6677-4354",
   "Nama dan No HP Tim PNKB Daerah": "setyo utomo//085200023546",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=12QufpAYGgOXvP1dbgHLUhnjm6ub-vif-",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 46,
-  "No Urut": "Kuning-46"
+  "Kode Warna": "Kuning-46"
  },
  {
   "Timestamp": "11/20/2025 5:04:59",
@@ -4132,9 +4132,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bp wardi",
   "Nama dan No HP Tim PNKB Daerah": "Bp utomo",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=12e5trEdREMwSZa1NDzfdfUPjwOw1naED",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 42,
-  "No Urut": "Kuning-42"
+  "Kode Warna": "Kuning-42"
  },
  {
   "Timestamp": "11/25/2025 16:28:00",
@@ -4154,8 +4154,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bpk Wardi (089635310805)",
   "Nama dan No HP Tim PNKB Daerah": "Bpk Setyo Utomo (085200023546)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=13i4v6mj4cFDyzEemUDYkvo5XmrTZ2KsL",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/6/2025 18:25:28",
@@ -4175,14 +4175,14 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Cak Opick / 082135331998",
   "Nama dan No HP Tim PNKB Daerah": "Bpk Royan Wijaya - 082136661818",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1nXkPmqhQWKiz9ypH8IOSO7cwO2o-Uczg",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 52,
-  "No Urut": "Kuning-52"
+  "Kode Warna": "Kuning-52"
  },
  {
   "Timestamp": "11/20/2025 5:08:42",
   "Nama Lengkap": "Feriana",
-  "Nama Inisial": "Ana",
+  "Nama Inisial": "Ana (SOLD OUT)",
   "Jenis Kelamin": "Perempuan",
   "Status Pernikahan": "Pernah Menikah",
   "Tempat, Tanggal Lahir": "Pati 26 november 1992",
@@ -4197,9 +4197,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bo.utomo",
   "Nama dan No HP Tim PNKB Daerah": "Bo.utomo",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1h-6gd_ufVxJVc6FVdrr3YNknUitH1eFj",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 50,
-  "No Urut": "Kuning-50"
+  "Kode Warna": "Kuning-50"
  },
  {
   "Timestamp": "11/8/2025 7:30:21",
@@ -4219,8 +4219,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Suradi +62 853-2508-6804",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1FmAPEGwqDMvdZjGZ4p-TtpHHVUifrYCK",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/6/2025 18:33:37",
@@ -4240,9 +4240,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Cak Opick / 082135331998",
   "Nama dan No HP Tim PNKB Daerah": "Bpk Royan Wijaya - 082136661818",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1yDoMqI4i5N1UC24bP0jt1VOakGAjOArg",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 51,
-  "No Urut": "Kuning-51"
+  "Kode Warna": "Kuning-51"
  },
  {
   "Timestamp": "11/6/2025 20:34:18",
@@ -4262,9 +4262,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Cak Opick / 082135331998",
   "Nama dan No HP Tim PNKB Daerah": "Bpk Royan Wijaya - 082136661818",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1wkVwXeZcVceVENoJrsPrRhXSYggoOwQu",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 43,
-  "No Urut": "Kuning-43"
+  "Kode Warna": "Kuning-43"
  },
  {
   "Timestamp": "11/8/2025 8:46:18",
@@ -4284,8 +4284,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak Suradi +62 853-2508-6804",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=15_Jv5Kax6EgwTg4A--9LmV-IcFqZhx9K",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/23/2025 16:33:35",
@@ -4305,9 +4305,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "0856-4284-4489 ( Pak Rio)",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1HJaZFdP0wAO6q6NFQ9mHRMFtGm5bJCc6",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 48,
-  "No Urut": "Kuning-48"
+  "Kode Warna": "Kuning-48"
  },
  {
   "Timestamp": "11/29/2025 22:00:37",
@@ -4327,10 +4327,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Jamari ( 082152525378)",
   "Nama dan No HP Tim PNKB Daerah": "Setyo Utomo (085200023546)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1b31aaDMhjnDEY_dvlO5ppXKFNnthcyFc",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 62,
   "haid?": "iya",
-  "No Urut": "Kuning-62"
+  "Kode Warna": "Kuning-62"
  },
  {
   "Timestamp": "11/7/2025 5:26:14",
@@ -4350,9 +4350,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Royan Wijaya ( 082136661818)",
   "Nama dan No HP Tim PNKB Daerah": ".",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1lLEXuYgyoJsbH_LByEDOfYTh-1l4wQ5L",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 55,
-  "No Urut": "Kuning-55"
+  "Kode Warna": "Kuning-55"
  },
  {
   "Timestamp": "11/6/2025 20:47:20",
@@ -4372,9 +4372,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Cak Opick / 082135331998",
   "Nama dan No HP Tim PNKB Daerah": "Bpk Royan Wijaya - 082136661818",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1f_iYZZV--hmHuEB29mN0mDOmXeECvN1V",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 53,
-  "No Urut": "Kuning-53"
+  "Kode Warna": "Kuning-53"
  },
  {
   "Timestamp": "11/6/2025 20:15:59",
@@ -4394,8 +4394,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085325086804",
   "Nama dan No HP Tim PNKB Daerah": "+",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Te_m_eycDaXSUAV3Dqb7JCr07rZA3UKn",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/8/2025 17:06:59",
@@ -4415,8 +4415,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sujud// +62 852-6677-4354",
   "Nama dan No HP Tim PNKB Daerah": "Setyo utomo // 085200023546",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1DMk_HbamMyzYrlHGUHCbZlrfXZTmB1H0",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/20/2025 5:02:04",
@@ -4436,8 +4436,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bp.wardi",
   "Nama dan No HP Tim PNKB Daerah": "Bp.utomo",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1i0W6SESfMfzLYkDEP6-XISNQIWyN5SRu",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/6/2025 18:21:01",
@@ -4457,10 +4457,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Cak Opick - 082135331998",
   "Nama dan No HP Tim PNKB Daerah": "Bpk Royan Wijaya - 082136661818",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=16hYH14Agqfat6zBIS8ltOWqHmp93zfBK",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 63,
   "haid?": "iya",
-  "No Urut": "Kuning-63"
+  "Kode Warna": "Kuning-63"
  },
  {
   "Timestamp": "11/6/2025 21:33:55",
@@ -4480,10 +4480,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bp.Hartoyo 0852-2522-0354",
   "Nama dan No HP Tim PNKB Daerah": "Bp.Setyo Utomo  0852-0002-3546",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1-bbU6H5AxTdhRhMUqCst6OsXXXutlHkk",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 64,
   "haid?": "iya",
-  "No Urut": "Kuning-64"
+  "Kode Warna": "Kuning-64"
  },
  {
   "Timestamp": "11/3/2025 14:36:36",
@@ -4503,8 +4503,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bpk jamari 08215252637",
   "Nama dan No HP Tim PNKB Daerah": "Bpk Utomo 085200023546",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1mzZLU95bug8npB7_Movj50MGkPxO6WOP",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/22/2025 15:38:05",
@@ -4524,9 +4524,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "PAK WARDI (+62 896-3531-0805)",
   "Nama dan No HP Tim PNKB Daerah": "pak setyo utomo (085200023546)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=13GqREGnTDvizuaeyPBxV7w9VUaQT1ycL",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 41,
-  "No Urut": "Kuning-41"
+  "Kode Warna": "Kuning-41"
  },
  {
   "Timestamp": "11/29/2025 21:46:07",
@@ -4546,14 +4546,14 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "suwarno(082146624146)",
   "Nama dan No HP Tim PNKB Daerah": "Setyo utomo(085200023546)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=13QoZLPd8ISHFzzsflIOJR4-nzIzceIqh",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 49,
-  "No Urut": "Kuning-49"
+  "Kode Warna": "Kuning-49"
  },
  {
   "Timestamp": "11/8/2025 17:12:54",
   "Nama Lengkap": "Sabila Khoirunnisa",
-  "Nama Inisial": "Bila",
+  "Nama Inisial": "Bila (SOLD OUT)",
   "Jenis Kelamin": "Perempuan",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "Pati,19 Agustus 2001",
@@ -4568,9 +4568,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "sujud//+62 852-6677-4354",
   "Nama dan No HP Tim PNKB Daerah": "Setyo utomo//085200023546",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1AbW3Z8STor08zlHnifY_LCqM45D2iFh_",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 45,
-  "No Urut": "Kuning-45"
+  "Kode Warna": "Kuning-45"
  },
  {
   "Timestamp": "11/6/2025 21:32:32",
@@ -4590,10 +4590,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Hartoyo 085225220354",
   "Nama dan No HP Tim PNKB Daerah": "Setyo utomo 085200023546",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1b2YkiLHdCOH9VPZML4OnhXY57sWEDaXP",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 65,
   "haid?": "iya",
-  "No Urut": "Kuning-65"
+  "Kode Warna": "Kuning-65"
  },
  {
   "Timestamp": "11/29/2025 21:52:50",
@@ -4613,9 +4613,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Jamari( 082152525378)",
   "Nama dan No HP Tim PNKB Daerah": "Setyo Utomo (085200023546)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1_xj8RsyW6sKp1UI2qAW24ONu6gp1FVHe",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 54,
-  "No Urut": "Kuning-54"
+  "Kode Warna": "Kuning-54"
  },
  {
   "Timestamp": "11/28/2025 17:09:54",
@@ -4635,8 +4635,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Jamari",
   "Nama dan No HP Tim PNKB Daerah": "Utomo",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Chx1Ic5mm3n-1BlrpeALhKLQMLOgEtCg",
-  "Kode Warna": "Kuning",
-  "No Urut": "Kuning-"
+  "Column 2": "Kuning",
+  "Kode Warna": "Kuning-"
  },
  {
   "Timestamp": "11/6/2025 18:29:07",
@@ -4656,9 +4656,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Cak Opick / 082135331998",
   "Nama dan No HP Tim PNKB Daerah": "Bpk Royan Wijaya - 082136661818",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1g6rYC-hV6uEwU0V1v7mA2LE_xbWwkzAJ",
-  "Kode Warna": "Kuning",
+  "Column 2": "Kuning",
   "Column 1": 47,
-  "No Urut": "Kuning-47"
+  "Kode Warna": "Kuning-47"
  },
  {
   "Timestamp": "11/12/2025 10:32:40",
@@ -4678,9 +4678,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak Feri (081326568124)",
   "Nama dan No HP Tim PNKB Daerah": "Pak Supri (081337287717",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=16p2pg1IGd9FjL0WNZWPpUxITUEFRmO8V",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 41,
-  "No Urut": "Hijau-41"
+  "Kode Warna": "Hijau-41"
  },
  {
   "Timestamp": "11/4/2025 18:21:00",
@@ -4700,9 +4700,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sukarno (081238294354)",
   "Nama dan No HP Tim PNKB Daerah": "Feri (081326568124)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1IfgFDujUkQoWlQXha_w3xziOsNbtSmJm",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 52,
-  "No Urut": "Hijau-52"
+  "Kode Warna": "Hijau-52"
  },
  {
   "Timestamp": "11/24/2025 8:20:29",
@@ -4722,9 +4722,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak Lukman/085210837199",
   "Nama dan No HP Tim PNKB Daerah": "Pak Fery/081326568124",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1wLP67x6ptub_8Osz16EzqE11G8hszyiF",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 45,
-  "No Urut": "Hijau-45"
+  "Kode Warna": "Hijau-45"
  },
  {
   "Timestamp": "11/4/2025 21:31:56",
@@ -4744,9 +4744,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bapak edy 0898‑5703‑545‬",
   "Nama dan No HP Tim PNKB Daerah": "Bapak siswo ‪+62 813‑2612‑4724‬",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1K0LVeL7zbAL_0YPCkCiVV7GIEQyEM3lH",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 56,
-  "No Urut": "Hijau-56"
+  "Kode Warna": "Hijau-56"
  },
  {
   "Timestamp": "11/14/2025 10:03:39",
@@ -4766,9 +4766,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1oOt7GPkMcg5QFXRt-rmhySCD2imKrL_L",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 50,
-  "No Urut": "Hijau-50"
+  "Kode Warna": "Hijau-50"
  },
  {
   "Timestamp": "11/14/2025 22:54:31",
@@ -4788,9 +4788,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak  Puji +62 857-4778-9473",
   "Nama dan No HP Tim PNKB Daerah": "Pak Feri",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1DrqU6vCXDwt4Zfw_vzxCsVBIyySvGxiq",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 49,
-  "No Urut": "Hijau-49"
+  "Kode Warna": "Hijau-49"
  },
  {
   "Timestamp": "11/6/2025 18:35:27",
@@ -4810,9 +4810,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak Edi, 08985703545",
   "Nama dan No HP Tim PNKB Daerah": "Pak Fery Sutrisno",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1onyA0ng67sYq4tqwgX4t9knrTk1V-O3M",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 44,
-  "No Urut": "Hijau-44"
+  "Kode Warna": "Hijau-44"
  },
  {
   "Timestamp": "11/5/2025 13:27:36",
@@ -4832,9 +4832,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Edy 08985703545",
   "Nama dan No HP Tim PNKB Daerah": "Fery Sutrisno ",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1c5sTs134itv7AdBCIuCjWVE1C8K-9XYb",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 43,
-  "No Urut": "Hijau-43"
+  "Kode Warna": "Hijau-43"
  },
  {
   "Timestamp": "11/14/2025 16:57:39",
@@ -4854,9 +4854,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak Feri (+6281326568124)",
   "Nama dan No HP Tim PNKB Daerah": "Pak Feri (+6281326568124)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1e92pnPvjLKeLn5YnVC0GIM9qMOPX2mbS",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 42,
-  "No Urut": "Hijau-42"
+  "Kode Warna": "Hijau-42"
  },
  {
   "Timestamp": "11/24/2025 21:48:28",
@@ -4876,9 +4876,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bapak Lukman/ 085210837199",
   "Nama dan No HP Tim PNKB Daerah": "Bapak Fery/ 081326568124",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=15nGIntLkPvY4BbUvDK43LiqvBtfFUkOH",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 46,
-  "No Urut": "Hijau-46"
+  "Kode Warna": "Hijau-46"
  },
  {
   "Timestamp": "11/24/2025 10:37:01",
@@ -4898,9 +4898,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak Puji - 085747789473",
   "Nama dan No HP Tim PNKB Daerah": "Pak Fery - 081326568124",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1VWgTHEJiqiuL8o5oRSsH2oZRZ9udw1bG",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 47,
-  "No Urut": "Hijau-47"
+  "Kode Warna": "Hijau-47"
  },
  {
   "Timestamp": "11/15/2025 5:10:22",
@@ -4920,13 +4920,13 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "081",
   "Nama dan No HP Tim PNKB Daerah": "0813-2656-8124",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Rlo9gxUxyENu1T0Wbc8XYgscIesJKGoo",
-  "Kode Warna": "Hijau",
-  "No Urut": "Hijau-"
+  "Column 2": "Hijau",
+  "Kode Warna": "Hijau-"
  },
  {
   "Timestamp": "11/18/2025 17:38:47",
   "Nama Lengkap": "Riza Dwi Yana ",
-  "Nama Inisial": "Riza ",
+  "Nama Inisial": "Riza (SOLD OUT)",
   "Jenis Kelamin": "Perempuan",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "Pati, 23 juli 1995",
@@ -4941,9 +4941,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "+62 857-4778-9473",
   "Nama dan No HP Tim PNKB Daerah": "+62 857-4778-9473",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1wngfweZz7_cZl6QQjc6Y_ISXbo1rVcdp",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 48,
-  "No Urut": "Hijau-48"
+  "Kode Warna": "Hijau-48"
  },
  {
   "Timestamp": "11/26/2025 8:08:48",
@@ -4963,9 +4963,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak Puji - 085747789473",
   "Nama dan No HP Tim PNKB Daerah": "Pak Fery - 081326568124",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1x0e_uJ6YPunAn_ouUnLbmsJDKheqX0O6",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 55,
-  "No Urut": "Hijau-55"
+  "Kode Warna": "Hijau-55"
  },
  {
   "Timestamp": "11/27/2025 20:36:10",
@@ -4985,9 +4985,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Nur Sujimantoro 082220490309",
   "Nama dan No HP Tim PNKB Daerah": "Mari 085842530051",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1r7h2q33Ys2OTgYcivyCPYtaaxNXwI2kI",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 47,
-  "No Urut": "Oranye-47"
+  "Kode Warna": "Oranye-47"
  },
  {
   "Timestamp": "11/27/2025 20:29:29",
@@ -5007,9 +5007,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Mari 085842530051",
   "Nama dan No HP Tim PNKB Daerah": "Mari 085842530051",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1XWs74Jy_bshAWInfjQcFPbWhEQKlBJVx",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 46,
-  "No Urut": "Oranye-46"
+  "Kode Warna": "Oranye-46"
  },
  {
   "Timestamp": "11/27/2025 20:11:07",
@@ -5029,9 +5029,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Mari 085842530051",
   "Nama dan No HP Tim PNKB Daerah": "Mari 085842530051",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1rVXD5a9Qmi4IGe3Ytd86_1iVmgtYqvKt",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 42,
-  "No Urut": "Oranye-42"
+  "Kode Warna": "Oranye-42"
  },
  {
   "Timestamp": "11/23/2025 13:30:25",
@@ -5051,9 +5051,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Susmono 085344799522",
   "Nama dan No HP Tim PNKB Daerah": "Mari 085842530051",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1-6P2lTbNcgjKj97lAtjT8fjiVO2gX1O9",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 44,
-  "No Urut": "Oranye-44"
+  "Kode Warna": "Oranye-44"
  },
  {
   "Timestamp": "11/27/2025 20:05:08",
@@ -5073,10 +5073,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Mari 085842530051",
   "Nama dan No HP Tim PNKB Daerah": "Mari 085842530051",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1C57Fl1CyaAtp7nfU4yJ_sLPxxGal8bNi",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 41,
   "haid?": "iya",
-  "No Urut": "Oranye-41"
+  "Kode Warna": "Oranye-41"
  },
  {
   "Timestamp": "11/27/2025 20:00:19",
@@ -5096,9 +5096,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Abdul Aziz 089601012101",
   "Nama dan No HP Tim PNKB Daerah": "Mari 085842530051",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1B_36s1sAJ9GvZSzDAs2wdSlQJ5Dg6Ker",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 50,
-  "No Urut": "Oranye-50"
+  "Kode Warna": "Oranye-50"
  },
  {
   "Timestamp": "11/16/2025 13:34:22",
@@ -5118,9 +5118,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak puji",
   "Nama dan No HP Tim PNKB Daerah": "Pak Mari",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1-63diYpvkZZ1kj2X4LVmxwhtWE67oQU1",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 56,
-  "No Urut": "Oranye-56"
+  "Kode Warna": "Oranye-56"
  },
  {
   "Timestamp": "11/23/2025 13:10:34",
@@ -5140,9 +5140,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Gito 085799412644",
   "Nama dan No HP Tim PNKB Daerah": "Mari 085842530051",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1piGPsmVi-C4u62KexDZIOtEtQAoVnDl3",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 43,
-  "No Urut": "Oranye-43"
+  "Kode Warna": "Oranye-43"
  },
  {
   "Timestamp": "11/23/2025 13:19:51",
@@ -5162,8 +5162,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Widodo 082313722235",
   "Nama dan No HP Tim PNKB Daerah": "Mari 085842530051",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1znhngSZcgSXGEaHeGq3f_PnruWyfZi1Z",
-  "Kode Warna": "Oranye",
-  "No Urut": "Oranye-"
+  "Column 2": "Oranye",
+  "Kode Warna": "Oranye-"
  },
  {
   "Timestamp": "11/27/2025 20:43:45",
@@ -5183,9 +5183,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Mari 085842530051",
   "Nama dan No HP Tim PNKB Daerah": "Mari 085842530051",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1EjWo6QZumPjx-avvBsU3BpHKoc_CXUMb",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 45,
-  "No Urut": "Oranye-45"
+  "Kode Warna": "Oranye-45"
  },
  {
   "Timestamp": "11/23/2025 13:23:43",
@@ -5205,9 +5205,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sujimantoro 082220490309",
   "Nama dan No HP Tim PNKB Daerah": "Mari 085842530051",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1b77iUf1CHMsY2PrxiOsvCP9KOwJz-Ok1",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 48,
-  "No Urut": "Oranye-48"
+  "Kode Warna": "Oranye-48"
  },
  {
   "Timestamp": "11/23/2025 13:15:34",
@@ -5227,9 +5227,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Luthfi 085800700443",
   "Nama dan No HP Tim PNKB Daerah": "Mari 085842530051",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1wfhZcCwxl2dEriNXpPM1asS_6k5ylwaO",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 49,
-  "No Urut": "Oranye-49"
+  "Kode Warna": "Oranye-49"
  },
  {
   "Timestamp": "11/29/2025 13:09:22",
@@ -5249,9 +5249,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "BP. Wardani",
   "Nama dan No HP Tim PNKB Daerah": "BP. Agus",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1lvEh4wVi7PsHDZ7mpPyHbUXBmykz909B",
-  "Kode Warna": "Hitam",
+  "Column 2": "Hitam",
   "Column 1": 43,
-  "No Urut": "Hitam-43"
+  "Kode Warna": "Hitam-43"
  },
  {
   "Timestamp": "11/29/2025 14:01:58",
@@ -5271,9 +5271,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bpk. Gandri (085895277922)",
   "Nama dan No HP Tim PNKB Daerah": "Bpk. Abdul Dhohir (085730237714)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=126qIV92HsXQXagLSwcJINLqJ0UJlLhz0",
-  "Kode Warna": "Hitam",
+  "Column 2": "Hitam",
   "Column 1": 41,
-  "No Urut": "Hitam-41"
+  "Kode Warna": "Hitam-41"
  },
  {
   "Timestamp": "11/29/2025 12:15:10",
@@ -5293,10 +5293,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "BPK. Gandri ( 085895227922 )",
   "Nama dan No HP Tim PNKB Daerah": "BPK. Abdul Dhohir ( 085730237714)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1xBLcneH_-VXPjil6I9vcO3PvoU64NTPx",
-  "Kode Warna": "Hitam",
+  "Column 2": "Hitam",
   "Column 1": 46,
   "haid?": "iya",
-  "No Urut": "Hitam-46"
+  "Kode Warna": "Hitam-46"
  },
  {
   "Timestamp": "11/29/2025 11:10:31",
@@ -5316,9 +5316,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak Wardani",
   "Nama dan No HP Tim PNKB Daerah": "Pak Agus ",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1dEcBbnz1sXLR8W6GOKkgQELQKqDF1QIJ",
-  "Kode Warna": "Hitam",
+  "Column 2": "Hitam",
   "Column 1": 45,
-  "No Urut": "Hitam-45"
+  "Kode Warna": "Hitam-45"
  },
  {
   "Timestamp": "11/29/2025 11:21:26",
@@ -5338,14 +5338,14 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak Wardani (+62 813-3576-8442)",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1c46oRh0ac57Iri64-mvKNaPeub_-FEJ6",
-  "Kode Warna": "Hitam",
+  "Column 2": "Hitam",
   "Column 1": 42,
-  "No Urut": "Hitam-42"
+  "Kode Warna": "Hitam-42"
  },
  {
   "Timestamp": "11/30/2025 8:11:48",
   "Nama Lengkap": "Putri ayu sabilla nikmah",
-  "Nama Inisial": "Bella",
+  "Nama Inisial": "Bella (SOLD OUT)",
   "Jenis Kelamin": "Perempuan",
   "Status Pernikahan": "Belum Menikah",
   "Tempat, Tanggal Lahir": "Rembang, 19 desember 2000",
@@ -5360,9 +5360,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": 0,
   "Nama dan No HP Tim PNKB Daerah": 0,
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=112L_z5IJxhH_5JksoRvQA-GTWCp0FFL8",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 51,
-  "No Urut": "Oranye-51"
+  "Kode Warna": "Oranye-51"
  },
  {
   "Timestamp": "11/30/2025 8:14:15",
@@ -5382,10 +5382,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": ".",
   "Nama dan No HP Tim PNKB Daerah": ".",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1mLsZ0gH5Qjv7aonti8gqEuAIEdf0LPph",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 70,
   "haid?": "iya",
-  "No Urut": "Merah-70"
+  "Kode Warna": "Merah-70"
  },
  {
   "Timestamp": "11/30/2025 8:14:41",
@@ -5405,9 +5405,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1U_4mHxoKGIBGwlRm0Lxxkw7_j-gmYhyk",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 1,
-  "No Urut": "Abu-abu-1"
+  "Kode Warna": "Abu-abu-1"
  },
  {
   "Timestamp": "11/30/2025 8:17:40",
@@ -5427,9 +5427,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bapak Indra 081210424664",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1T5M2RGFZYR1iJTFQ6-gl6MUO0y6SDWNn",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 49,
-  "No Urut": "Merah-49"
+  "Kode Warna": "Merah-49"
  },
  {
   "Timestamp": "11/30/2025 8:23:30",
@@ -5449,9 +5449,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sumarsono",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=180pArckRESCG3I4YfyCbcxlrqxI8exvZ",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 11,
-  "No Urut": "Merah-11"
+  "Kode Warna": "Merah-11"
  },
  {
   "Timestamp": "11/30/2025 8:26:10",
@@ -5471,9 +5471,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "pak mari",
   "Nama dan No HP Tim PNKB Daerah": "pak mari",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1z9uMetouwlMK04udbZaVk1ep_yT1X1pr",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 3,
-  "No Urut": "Oranye-3"
+  "Kode Warna": "Oranye-3"
  },
  {
   "Timestamp": "11/30/2025 8:26:24",
@@ -5493,9 +5493,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sumarsono",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Tq_RBh7m8otZVy6PWiQMQDHvBr60rEh6",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 12,
-  "No Urut": "Merah-12"
+  "Kode Warna": "Merah-12"
  },
  {
   "Timestamp": "11/30/2025 8:26:24",
@@ -5515,9 +5515,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "081259393542",
   "Nama dan No HP Tim PNKB Daerah": "085217542446",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1v64lMkLt5gu_PExCX0rBN7tQyf-OcRVI",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 8,
-  "No Urut": "Merah-8"
+  "Kode Warna": "Merah-8"
  },
  {
   "Timestamp": "11/30/2025 8:27:41",
@@ -5537,9 +5537,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "SOLIKIN 081318386087",
   "Nama dan No HP Tim PNKB Daerah": "SUWASISTO 085725386510",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1-az7kWwbJTwEs-_CvXeT_4VWqg_0CqUS",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 9,
-  "No Urut": "Merah-9"
+  "Kode Warna": "Merah-9"
  },
  {
   "Timestamp": "11/30/2025 8:28:18",
@@ -5559,9 +5559,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Ahmad sumarsono",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1aJIKmLUqyGZbQ-maiBLN8zeiRNoMo0up",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 10,
-  "No Urut": "Merah-10"
+  "Kode Warna": "Merah-10"
  },
  {
   "Timestamp": "11/30/2025 8:28:57",
@@ -5581,9 +5581,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "083872061666",
   "Nama dan No HP Tim PNKB Daerah": "082391034122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1gQfGLuq584HTb8iTeB9hAKwyENbCfPl1",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 53,
-  "No Urut": "Merah-53"
+  "Kode Warna": "Merah-53"
  },
  {
   "Timestamp": "11/30/2025 8:29:10",
@@ -5603,9 +5603,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "pak sugito / +62 857-9941-2644",
   "Nama dan No HP Tim PNKB Daerah": "pak mari / +62 858-4253-0051",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1ZeBKmmr8QAOBfqS211yK370N8Jomhdbf",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 43,
-  "No Urut": "Oranye-43"
+  "Kode Warna": "Oranye-43"
  },
  {
   "Timestamp": "11/30/2025 8:32:38",
@@ -5625,9 +5625,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bpk. Sujiman (082220490309)",
   "Nama dan No HP Tim PNKB Daerah": "Bpk. Mari (085842530051)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1dvb_00EwCp2Y1T3Hu7bbLYmd_GYzdx20",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 47,
-  "No Urut": "Oranye-47"
+  "Kode Warna": "Oranye-47"
  },
  {
   "Timestamp": "11/30/2025 8:35:08",
@@ -5647,9 +5647,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak Bambang ",
   "Nama dan No HP Tim PNKB Daerah": "Pak didik",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1KVINTeMfzKOlwfc2Y4MnQNxYSmIYdDCE",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 4,
-  "No Urut": "Abu-abu-4"
+  "Kode Warna": "Abu-abu-4"
  },
  {
   "Timestamp": "11/30/2025 8:35:20",
@@ -5669,8 +5669,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "00",
   "Nama dan No HP Tim PNKB Daerah": "00",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1U_Rb-dCs3V9r839xfMu3PBRUxIG3LoR4",
-  "Kode Warna": "Oranye",
-  "No Urut": "Oranye-"
+  "Column 2": "Oranye",
+  "Kode Warna": "Oranye-"
  },
  {
   "Timestamp": "11/30/2025 8:35:22",
@@ -5690,8 +5690,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sukarno ",
   "Nama dan No HP Tim PNKB Daerah": "Feri",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1PeMZXkmNi9rBGZ4IUqcxIjsoZgEqjxTC",
-  "Kode Warna": "Hijau",
-  "No Urut": "Hijau-"
+  "Column 2": "Hijau",
+  "Kode Warna": "Hijau-"
  },
  {
   "Timestamp": "11/30/2025 8:35:30",
@@ -5711,8 +5711,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bp. Sujiman (082220490309)",
   "Nama dan No HP Tim PNKB Daerah": "Bp. Mari (085842530051)",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1GqYDCM3hs8NH-dXdkPoaN10ndkiemkBs",
-  "Kode Warna": "Oranye",
-  "No Urut": "Oranye-"
+  "Column 2": "Oranye",
+  "Kode Warna": "Oranye-"
  },
  {
   "Timestamp": "11/30/2025 8:36:45",
@@ -5732,9 +5732,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Istiyono",
   "Nama dan No HP Tim PNKB Daerah": "Mardiyanto ",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1A4uwNubxvAzsbVPmtvtSoRFfivULauLy",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 15,
-  "No Urut": "Merah-15"
+  "Kode Warna": "Merah-15"
  },
  {
   "Timestamp": "11/30/2025 8:36:46",
@@ -5754,8 +5754,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Joko Suroso",
   "Nama dan No HP Tim PNKB Daerah": "Fery",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1rBAQyKP0mJLIS9Ol3mqH7wq5vCvn47HD",
-  "Kode Warna": "Hijau",
-  "No Urut": "Hijau-"
+  "Column 2": "Hijau",
+  "Kode Warna": "Hijau-"
  },
  {
   "Timestamp": "11/30/2025 8:36:50",
@@ -5775,9 +5775,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Istiyono",
   "Nama dan No HP Tim PNKB Daerah": "Mardiayanto",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=15XLIrPpdW18mOiNRqNOyFbxNgIyego8O",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 16,
-  "No Urut": "Merah-16"
+  "Kode Warna": "Merah-16"
  },
  {
   "Timestamp": "11/30/2025 8:37:34",
@@ -5797,8 +5797,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Kuswanto",
   "Nama dan No HP Tim PNKB Daerah": "Kuswanto/ 085840259056",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1-bO94C1WaedkPvRXDcZ5n99_R3iVbI3j",
-  "Kode Warna": "Hitam",
-  "No Urut": "Hitam-"
+  "Column 2": "Hitam",
+  "Kode Warna": "Hitam-"
  },
  {
   "Timestamp": "11/30/2025 8:37:36",
@@ -5818,10 +5818,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Rasimin",
   "Nama dan No HP Tim PNKB Daerah": "Mardiyanto/082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Nl46Ui3WF_sgmeQFJVYtRVvPmXqpCPhs",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 67,
   "haid?": "iya",
-  "No Urut": "Merah-67"
+  "Kode Warna": "Merah-67"
  },
  {
   "Timestamp": "11/30/2025 8:37:36",
@@ -5841,8 +5841,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sukarno +62 812-3829-4354",
   "Nama dan No HP Tim PNKB Daerah": "Feri +62 813-2656-8124",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1VlPTgpzRwhYikCfXHN88irYAvLUmhXsP",
-  "Kode Warna": "Hijau",
-  "No Urut": "Hijau-"
+  "Column 2": "Hijau",
+  "Kode Warna": "Hijau-"
  },
  {
   "Timestamp": "11/30/2025 8:38:41",
@@ -5862,8 +5862,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bp karno dan +62 812-3829-4354",
   "Nama dan No HP Tim PNKB Daerah": "Feri dan +62 813-2656-8124",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1sLrH1oxxA-iqR-CyvOFglP3YK52NRKiW",
-  "Kode Warna": "Hijau",
-  "No Urut": "Hijau-"
+  "Column 2": "Hijau",
+  "Kode Warna": "Hijau-"
  },
  {
   "Timestamp": "11/30/2025 8:39:07",
@@ -5883,9 +5883,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085600578768",
   "Nama dan No HP Tim PNKB Daerah": "mardianto",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1scZJoVHPSPQmV8uASNhE62uT_4m_oF-V",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 14,
-  "No Urut": "Merah-14"
+  "Kode Warna": "Merah-14"
  },
  {
   "Timestamp": "11/30/2025 8:40:08",
@@ -5905,8 +5905,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1U883iC2cWnPIhfMakMrWy1t9tefV_Jhz",
-  "Kode Warna": "Oranye",
-  "No Urut": "Oranye-"
+  "Column 2": "Oranye",
+  "Kode Warna": "Oranye-"
  },
  {
   "Timestamp": "11/30/2025 8:41:44",
@@ -5926,8 +5926,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Ngadiro 082329510614",
   "Nama dan No HP Tim PNKB Daerah": "Mardianto 082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1hd3Qhdgh3o6hKpHvJfZiktvoTy3agoax",
-  "Kode Warna": "Merah",
-  "No Urut": "Merah-"
+  "Column 2": "Merah",
+  "Kode Warna": "Merah-"
  },
  {
   "Timestamp": "11/30/2025 8:42:06",
@@ -5947,9 +5947,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Ngadiro 082329510614",
   "Nama dan No HP Tim PNKB Daerah": "Mardianto 082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1rt_V5bCPKXzNipSi1IcvNRaqZ5w3fV10",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 61,
-  "No Urut": "Merah-61"
+  "Kode Warna": "Merah-61"
  },
  {
   "Timestamp": "11/30/2025 8:42:28",
@@ -5969,10 +5969,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Ahmad sumarsono 085702811416",
   "Nama dan No HP Tim PNKB Daerah": "Mardianto 082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=15aTV19Xj-VvKwYTIlBGL8w70GTJuHHnq",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 77,
   "haid?": "iya",
-  "No Urut": "Merah-77"
+  "Kode Warna": "Merah-77"
  },
  {
   "Timestamp": "11/30/2025 8:45:16",
@@ -5992,9 +5992,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Mas dian",
   "Nama dan No HP Tim PNKB Daerah": "+62 813-6796-5878",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1LnZ1b3XMGC-9ujWnLIMRTAUTXVtxTIOL",
-  "Kode Warna": "Ungu",
+  "Column 2": "Ungu",
   "Column 1": 50,
-  "No Urut": "Ungu-50"
+  "Kode Warna": "Ungu-50"
  },
  {
   "Timestamp": "11/30/2025 8:49:08",
@@ -6014,9 +6014,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "-",
   "Nama dan No HP Tim PNKB Daerah": "-",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1ktBFDTGQ4WswChDw__UX1XYRFNj9BEcV",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 65,
-  "No Urut": "Merah-65"
+  "Kode Warna": "Merah-65"
  },
  {
   "Timestamp": "11/30/2025 8:49:49",
@@ -6036,9 +6036,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bambang Riyadi 085225358980",
   "Nama dan No HP Tim PNKB Daerah": "Didik Nurhadi +62 815-7556-6675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1NFhmEtZnSmhDsVazEe4n-o_tfx2S619Y",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 76,
-  "No Urut": "Abu-abu-76"
+  "Kode Warna": "Abu-abu-76"
  },
  {
   "Timestamp": "11/30/2025 8:50:32",
@@ -6058,10 +6058,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085721683647",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Ln-4irTrCCMlI4uf9Uu_AzoM5zH9Iq7p",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 70,
   "haid?": "iya",
-  "No Urut": "Merah-70"
+  "Kode Warna": "Merah-70"
  },
  {
   "Timestamp": "11/30/2025 8:51:23",
@@ -6081,9 +6081,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "085721683647",
   "Nama dan No HP Tim PNKB Daerah": "082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1w8WyGaA5tMOGGbjwe_zMXE3rPbPN3x7T",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 66,
-  "No Urut": "Merah-66"
+  "Kode Warna": "Merah-66"
  },
  {
   "Timestamp": "11/30/2025 8:51:41",
@@ -6103,9 +6103,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bagus dan 085712113571",
   "Nama dan No HP Tim PNKB Daerah": "Yanto dan 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1GbYRyUpr9BMJJRkSTRWFAFbr1qNegQJx",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 4,
-  "No Urut": "Pink-4"
+  "Kode Warna": "Pink-4"
  },
  {
   "Timestamp": "11/30/2025 8:51:43",
@@ -6125,10 +6125,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Ahmad sumarsono 085703811416",
   "Nama dan No HP Tim PNKB Daerah": "Mardianto 082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1ghMbcC9nyZwwQBA5v54zO0b0xM5SA-h1",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 76,
   "haid?": "iya",
-  "No Urut": "Merah-76"
+  "Kode Warna": "Merah-76"
  },
  {
   "Timestamp": "11/30/2025 8:53:41",
@@ -6148,9 +6148,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Bambang 085225358980",
   "Nama dan No HP Tim PNKB Daerah": "Didik nurhadi +62 815-7556-6675",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1SJRKV6n8NwomlleoeGbJLo6xsAQnK8il",
-  "Kode Warna": "Abu-abu",
+  "Column 2": "Abu-abu",
   "Column 1": 75,
-  "No Urut": "Abu-abu-75"
+  "Kode Warna": "Abu-abu-75"
  },
  {
   "Timestamp": "11/30/2025 8:59:19",
@@ -6170,9 +6170,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "sucipto",
   "Nama dan No HP Tim PNKB Daerah": "mardianto",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1RCHTt4ySglxH4MA9IvF3VvVE9Hp-3jha",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 23,
-  "No Urut": "Merah-23"
+  "Kode Warna": "Merah-23"
  },
  {
   "Timestamp": "11/30/2025 8:59:27",
@@ -6192,9 +6192,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "+62 813-2886-5221 Bapak Alek",
   "Nama dan No HP Tim PNKB Daerah": "+62 899-6614-814 Bapak arief firdaus",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=17hOizquqDqcTS6zZo6Svqn0BnqrxGovB",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 69,
-  "No Urut": "Merah-69"
+  "Kode Warna": "Merah-69"
  },
  {
   "Timestamp": "11/30/2025 9:00:10",
@@ -6214,9 +6214,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Subakir. 0895622211963",
   "Nama dan No HP Tim PNKB Daerah": "BPK Mardianto 082391038122",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1w6XLUplRB8SEb7V4JmKmsqQAA0qv-ADX",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 21,
-  "No Urut": "Merah-21"
+  "Kode Warna": "Merah-21"
  },
  {
   "Timestamp": "11/30/2025 9:01:48",
@@ -6236,9 +6236,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": 0,
   "Nama dan No HP Tim PNKB Daerah": 0,
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1zgA2JxO25RzMYnbPNlkaouSNlvcw9Iue",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 41,
-  "No Urut": "Pink-41"
+  "Kode Warna": "Pink-41"
  },
  {
   "Timestamp": "11/30/2025 9:02:29",
@@ -6258,9 +6258,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "mardianto",
   "Nama dan No HP Tim PNKB Daerah": "mardianto",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1YZwizPtfXmFi_iBLyhizgOoIeZId3XCb",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 22,
-  "No Urut": "Merah-22"
+  "Kode Warna": "Merah-22"
  },
  {
   "Timestamp": "11/30/2025 9:02:57",
@@ -6280,9 +6280,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Manto, 08221990997",
   "Nama dan No HP Tim PNKB Daerah": "Nasrun, 085225882558",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1LPCZalQDYQS6srQj2xAjxqp3l3UWuKXB",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 42,
-  "No Urut": "Pink-42"
+  "Kode Warna": "Pink-42"
  },
  {
   "Timestamp": "11/30/2025 9:04:16",
@@ -6302,8 +6302,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Mas roni 085777544313",
   "Nama dan No HP Tim PNKB Daerah": "Pak shodikin 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1MTKwKKadTEKpbTcQG_TbJw9GM1s1ENwn",
-  "Kode Warna": "Ungu",
-  "No Urut": "Ungu-"
+  "Column 2": "Ungu",
+  "Kode Warna": "Ungu-"
  },
  {
   "Timestamp": "11/30/2025 9:06:13",
@@ -6323,10 +6323,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "089520314556",
   "Nama dan No HP Tim PNKB Daerah": "081326568124",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1nCifeRHITWPMSLgyOVuXPJ3ju7p5UhRj",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 51,
   "haid?": "iya",
-  "No Urut": "Hijau-51"
+  "Kode Warna": "Hijau-51"
  },
  {
   "Timestamp": "11/30/2025 9:06:41",
@@ -6346,8 +6346,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Mas roni  085777544313",
   "Nama dan No HP Tim PNKB Daerah": "Pak sodikin   081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=14EBNT1cY-u8Nqag370xgkxSKIb5EFOMF",
-  "Kode Warna": "Ungu",
-  "No Urut": "Ungu-"
+  "Column 2": "Ungu",
+  "Kode Warna": "Ungu-"
  },
  {
   "Timestamp": "11/30/2025 9:07:46",
@@ -6367,8 +6367,8 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "mas roni 085777544313",
   "Nama dan No HP Tim PNKB Daerah": "Pak diqin 081225438352",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=161rchXUhI217tZBCzB8HlHL62Wlfz6nJ",
-  "Kode Warna": "Ungu",
-  "No Urut": "Ungu-"
+  "Column 2": "Ungu",
+  "Kode Warna": "Ungu-"
  },
  {
   "Timestamp": "11/30/2025 9:08:01",
@@ -6388,9 +6388,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Manto, 08221990997",
   "Nama dan No HP Tim PNKB Daerah": "Nasrun 085225882558",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1bq34tVQ01x9pVclCcuQCHO-GZ9cafHNC",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 43,
-  "No Urut": "Pink-43"
+  "Kode Warna": "Pink-43"
  },
  {
   "Timestamp": "11/30/2025 9:27:43",
@@ -6410,10 +6410,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": 0,
   "Nama dan No HP Tim PNKB Daerah": 0,
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1WPDjsZPnw7vFddAQXGdpEeyDGWsfNkXn",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 59,
   "haid?": "iya",
-  "No Urut": "Pink-59"
+  "Kode Warna": "Pink-59"
  },
  {
   "Timestamp": "11/30/2025 9:29:56",
@@ -6433,9 +6433,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "081328865221",
   "Nama dan No HP Tim PNKB Daerah": 0,
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=17byHTBXTuxO8bogz9Dn2p9vnsd6l9l-a",
-  "Kode Warna": "Merah",
+  "Column 2": "Merah",
   "Column 1": 75,
-  "No Urut": "Merah-75"
+  "Kode Warna": "Merah-75"
  },
  {
   "Timestamp": "11/30/2025 9:30:35",
@@ -6455,9 +6455,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak Pujianto, 0857 4778 9473 ",
   "Nama dan No HP Tim PNKB Daerah": "Pak Feri, 081326568124",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1Wo73TRkrj9P_yHeGCrEvVgAutFD5uHMQ",
-  "Kode Warna": "Hijau",
+  "Column 2": "Hijau",
   "Column 1": 57,
-  "No Urut": "Hijau-57"
+  "Kode Warna": "Hijau-57"
  },
  {
   "Timestamp": "11/30/2025 9:33:13",
@@ -6477,9 +6477,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sugeng riyanto",
   "Nama dan No HP Tim PNKB Daerah": "082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1wO5H1zu0dRmSLXs-DfAfeEUrLnsonOK_",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 50,
-  "No Urut": "Pink-50"
+  "Kode Warna": "Pink-50"
  },
  {
   "Timestamp": "11/30/2025 9:38:02",
@@ -6499,10 +6499,10 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Sriyanti",
   "Nama dan No HP Tim PNKB Daerah": "082313226385",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1LzrCKFNYLLpRO541Hfq0Xg8gvAOsa96u",
-  "Kode Warna": "Oranye",
+  "Column 2": "Oranye",
   "Column 1": 55,
   "haid?": "iya",
-  "No Urut": "Oranye-55"
+  "Kode Warna": "Oranye-55"
  },
  {
   "Timestamp": "11/30/2025 9:42:44",
@@ -6522,9 +6522,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": 0,
   "Nama dan No HP Tim PNKB Daerah": 0,
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1cxiI6Y2hY_ZqxgP5Fw2ws7J8eA0tkHAB",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 48,
-  "No Urut": "Pink-48"
+  "Kode Warna": "Pink-48"
  },
  {
   "Timestamp": "11/30/2025 9:50:00",
@@ -6544,9 +6544,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "082221266980",
   "Nama dan No HP Tim PNKB Daerah": "082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1BmYzvafYXSnDjt_5f6nbQD6HFq9Oyur_",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 11,
-  "No Urut": "Pink-11"
+  "Kode Warna": "Pink-11"
  },
  {
   "Timestamp": "11/30/2025 9:53:11",
@@ -6566,9 +6566,9 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak yanto 082226687562",
   "Nama dan No HP Tim PNKB Daerah": "Pak yanto 082226687562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1D9K-b6FBhBTtfMiRgR0ZaSz4UpcBO1Zb",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 10,
-  "No Urut": "Pink-10"
+  "Kode Warna": "Pink-10"
  },
  {
   "Timestamp": "11/30/2025 9:54:32",
@@ -6588,12 +6588,12 @@ const biodata = [
   "Nama dan No HP Tim PNKB Kelompok": "Pak yanto 082226687562",
   "Nama dan No HP Tim PNKB Daerah": "Pak yanto 0822266875562",
   "Foto Diri (Tampak Seluruh Tubuh)": "https://drive.google.com/open?id=1VMqZbSSSraF-8rPVnAsZKyvLE02vlGai",
-  "Kode Warna": "Pink",
+  "Column 2": "Pink",
   "Column 1": 9,
-  "No Urut": "Pink-9"
+  "Kode Warna": "Pink-9"
  }
-
 	
 
 		];
+
 
