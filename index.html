@@ -939,10 +939,10 @@
 				}
 			} else if (role === 'pnkb') {
 				inputToken = document.getElementById('tokenPnkb').value;
-				if (inputToken === "warrahmah123") {
-					userTargetGender = "ALL";
-					valid = true;
-					alert("Login Admin Berhasil! Menampilkan semua data.");
+				if (inputToken === "warrahmah123" || inputToken === "admin") {
+				    userTargetGender = "ALL";
+				    valid = true;
+				    alert("Login Admin Berhasil! Menampilkan semua data.");
 				}
 			}
 
@@ -1303,3 +1303,4 @@
 	
 </body>
 </html>
+
